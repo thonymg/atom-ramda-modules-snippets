@@ -1,0 +1,1879 @@
+'.source.js.jsx':
+  'CJS Ramda/__' :
+    'prefix': 'rav____doc'
+    'body': """
+    var __ = require('ramda/__');
+
+    """
+  'CJS Ramda/add
+    Add :: Number -> Number -> Number' :
+    'prefix': 'rav_add_doc'
+    'body': """
+    //Add :: Number -> Number -> Number
+    var Add = require('ramda/add');
+
+    """
+  'CJS Ramda/adjust
+    Adjust :: (a -> a) -> Number -> [a] -> [a]' :
+    'prefix': 'rav_adjust_doc'
+    'body': """
+    //Adjust :: (a -> a) -> Number -> [a] -> [a]
+    var Adjust = require('ramda/adjust');
+
+    """
+  'CJS Ramda/all
+    All :: (a -> Boolean) -> [a] -> Boolean' :
+    'prefix': 'rav_all_doc'
+    'body': """
+    //All :: (a -> Boolean) -> [a] -> Boolean
+    var All = require('ramda/all');
+
+    """
+  'CJS Ramda/always
+    Always :: a -> (* -> a)' :
+    'prefix': 'rav_always_doc'
+    'body': """
+    //Always :: a -> (* -> a)
+    var Always = require('ramda/always');
+
+    """
+  'CJS Ramda/and
+    And :: * -> * -> *' :
+    'prefix': 'rav_and_doc'
+    'body': """
+    //And :: * -> * -> *
+    var And = require('ramda/and');
+
+    """
+  'CJS Ramda/any
+    Any :: (a -> Boolean) -> [a] -> Boolean' :
+    'prefix': 'rav_any_doc'
+    'body': """
+    //Any :: (a -> Boolean) -> [a] -> Boolean
+    var Any = require('ramda/any');
+
+    """
+  'CJS Ramda/aperture
+    Aperture :: Number -> [a] -> [[a]]' :
+    'prefix': 'rav_aperture_doc'
+    'body': """
+    //Aperture :: Number -> [a] -> [[a]]
+    var Aperture = require('ramda/aperture');
+
+    """
+  'CJS Ramda/append
+    Append :: a -> [a] -> [a]' :
+    'prefix': 'rav_append_doc'
+    'body': """
+    //Append :: a -> [a] -> [a]
+    var Append = require('ramda/append');
+
+    """
+  'CJS Ramda/apply
+    Apply :: (*... -> a) -> [*] -> a' :
+    'prefix': 'rav_apply_doc'
+    'body': """
+    //Apply :: (*... -> a) -> [*] -> a
+    var Apply = require('ramda/apply');
+
+    """
+  'CJS Ramda/assoc
+    Assoc :: String -> a -> {k: v} -> {k: v}' :
+    'prefix': 'rav_assoc_doc'
+    'body': """
+    //Assoc :: String -> a -> {k: v} -> {k: v}
+    var Assoc = require('ramda/assoc');
+
+    """
+  'CJS Ramda/assocPath
+    AssocPath :: [String] -> a -> {k: v} -> {k: v}' :
+    'prefix': 'rav_assocPath_doc'
+    'body': """
+    //AssocPath :: [String] -> a -> {k: v} -> {k: v}
+    var AssocPath = require('ramda/assocPath');
+
+    """
+  'CJS Ramda/bind
+    Bind :: (* -> *) -> {*} -> (* -> *)' :
+    'prefix': 'rav_bind_doc'
+    'body': """
+    //Bind :: (* -> *) -> {*} -> (* -> *)
+    var Bind = require('ramda/bind');
+
+    """
+  'CJS Ramda/clamp
+    Clamp :: Ord a => a -> a -> a -> a' :
+    'prefix': 'rav_clamp_doc'
+    'body': """
+    //Clamp :: Ord a => a -> a -> a -> a
+    var Clamp = require('ramda/clamp');
+
+    """
+  'CJS Ramda/comparator
+    Comparator :: (a  b -> Boolean) -> (a  b -> Number)' :
+    'prefix': 'rav_comparator_doc'
+    'body': """
+    //Comparator :: (a  b -> Boolean) -> (a  b -> Number)
+    var Comparator = require('ramda/comparator');
+
+    """
+  'CJS Ramda/curryN
+    CurryN :: Number -> (* -> a) -> (* -> a)' :
+    'prefix': 'rav_curryN_doc'
+    'body': """
+    //CurryN :: Number -> (* -> a) -> (* -> a)
+    var CurryN = require('ramda/curryN');
+
+    """
+  'CJS Ramda/dec
+    Dec :: Number -> Number' :
+    'prefix': 'rav_dec_doc'
+    'body': """
+    //Dec :: Number -> Number
+    var Dec = require('ramda/dec');
+
+    """
+  'CJS Ramda/defaultTo
+    DefaultTo :: a -> b -> a | b' :
+    'prefix': 'rav_defaultTo_doc'
+    'body': """
+    //DefaultTo :: a -> b -> a | b
+    var DefaultTo = require('ramda/defaultTo');
+
+    """
+  'CJS Ramda/differenceWith
+    DifferenceWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]' :
+    'prefix': 'rav_differenceWith_doc'
+    'body': """
+    //DifferenceWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]
+    var DifferenceWith = require('ramda/differenceWith');
+
+    """
+  'CJS Ramda/dissoc
+    Dissoc :: String -> {k: v} -> {k: v}' :
+    'prefix': 'rav_dissoc_doc'
+    'body': """
+    //Dissoc :: String -> {k: v} -> {k: v}
+    var Dissoc = require('ramda/dissoc');
+
+    """
+  'CJS Ramda/dissocPath
+    DissocPath :: [String] -> {k: v} -> {k: v}' :
+    'prefix': 'rav_dissocPath_doc'
+    'body': """
+    //DissocPath :: [String] -> {k: v} -> {k: v}
+    var DissocPath = require('ramda/dissocPath');
+
+    """
+  'CJS Ramda/divide
+    Divide :: Number -> Number -> Number' :
+    'prefix': 'rav_divide_doc'
+    'body': """
+    //Divide :: Number -> Number -> Number
+    var Divide = require('ramda/divide');
+
+    """
+  'CJS Ramda/dropWhile
+    DropWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rav_dropWhile_doc'
+    'body': """
+    //DropWhile :: (a -> Boolean) -> [a] -> [a]
+    var DropWhile = require('ramda/dropWhile');
+
+    """
+  'CJS Ramda/empty
+    Empty :: a -> a' :
+    'prefix': 'rav_empty_doc'
+    'body': """
+    //Empty :: a -> a
+    var Empty = require('ramda/empty');
+
+    """
+  'CJS Ramda/evolve
+    Evolve :: {k: (v -> v)} -> {k: v} -> {k: v}' :
+    'prefix': 'rav_evolve_doc'
+    'body': """
+    //Evolve :: {k: (v -> v)} -> {k: v} -> {k: v}
+    var Evolve = require('ramda/evolve');
+
+    """
+  'CJS Ramda/find
+    Find :: (a -> Boolean) -> [a] -> a | undefined' :
+    'prefix': 'rav_find_doc'
+    'body': """
+    //Find :: (a -> Boolean) -> [a] -> a | undefined
+    var Find = require('ramda/find');
+
+    """
+  'CJS Ramda/findIndex
+    FindIndex :: (a -> Boolean) -> [a] -> Number' :
+    'prefix': 'rav_findIndex_doc'
+    'body': """
+    //FindIndex :: (a -> Boolean) -> [a] -> Number
+    var FindIndex = require('ramda/findIndex');
+
+    """
+  'CJS Ramda/findLast
+    FindLast :: (a -> Boolean) -> [a] -> a | undefined' :
+    'prefix': 'rav_findLast_doc'
+    'body': """
+    //FindLast :: (a -> Boolean) -> [a] -> a | undefined
+    var FindLast = require('ramda/findLast');
+
+    """
+  'CJS Ramda/findLastIndex
+    FindLastIndex :: (a -> Boolean) -> [a] -> Number' :
+    'prefix': 'rav_findLastIndex_doc'
+    'body': """
+    //FindLastIndex :: (a -> Boolean) -> [a] -> Number
+    var FindLastIndex = require('ramda/findLastIndex');
+
+    """
+  'CJS Ramda/forEach
+    ForEach :: (a -> *) -> [a] -> [a]' :
+    'prefix': 'rav_forEach_doc'
+    'body': """
+    //ForEach :: (a -> *) -> [a] -> [a]
+    var ForEach = require('ramda/forEach');
+
+    """
+  'CJS Ramda/fromPairs
+    FromPairs :: [[k v]] -> {k: v}' :
+    'prefix': 'rav_fromPairs_doc'
+    'body': """
+    //FromPairs :: [[k v]] -> {k: v}
+    var FromPairs = require('ramda/fromPairs');
+
+    """
+  'CJS Ramda/groupWith
+    GroupWith :: (a  a -> Boolean) -> [a] -> [[a]]' :
+    'prefix': 'rav_groupWith_doc'
+    'body': """
+    //GroupWith :: (a  a -> Boolean) -> [a] -> [[a]]
+    var GroupWith = require('ramda/groupWith');
+
+    """
+  'CJS Ramda/gt
+    Gt :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rav_gt_doc'
+    'body': """
+    //Gt :: Ord a => a -> a -> Boolean
+    var Gt = require('ramda/gt');
+
+    """
+  'CJS Ramda/gte
+    Gte :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rav_gte_doc'
+    'body': """
+    //Gte :: Ord a => a -> a -> Boolean
+    var Gte = require('ramda/gte');
+
+    """
+  'CJS Ramda/has
+    Has :: s -> {s: x} -> Boolean' :
+    'prefix': 'rav_has_doc'
+    'body': """
+    //Has :: s -> {s: x} -> Boolean
+    var Has = require('ramda/has');
+
+    """
+  'CJS Ramda/hasIn
+    HasIn :: s -> {s: x} -> Boolean' :
+    'prefix': 'rav_hasIn_doc'
+    'body': """
+    //HasIn :: s -> {s: x} -> Boolean
+    var HasIn = require('ramda/hasIn');
+
+    """
+  'CJS Ramda/identical
+    Identical :: a -> a -> Boolean' :
+    'prefix': 'rav_identical_doc'
+    'body': """
+    //Identical :: a -> a -> Boolean
+    var Identical = require('ramda/identical');
+
+    """
+  'CJS Ramda/identity
+    Identity :: a -> a' :
+    'prefix': 'rav_identity_doc'
+    'body': """
+    //Identity :: a -> a
+    var Identity = require('ramda/identity');
+
+    """
+  'CJS Ramda/ifElse
+    IfElse :: (*... -> Boolean) -> (*... -> *) -> (*... -> *) -> (*... -> *)' :
+    'prefix': 'rav_ifElse_doc'
+    'body': """
+    //IfElse :: (*... -> Boolean) -> (*... -> *) -> (*... -> *) -> (*... -> *)
+    var IfElse = require('ramda/ifElse');
+
+    """
+  'CJS Ramda/inc
+    Inc :: Number -> Number' :
+    'prefix': 'rav_inc_doc'
+    'body': """
+    //Inc :: Number -> Number
+    var Inc = require('ramda/inc');
+
+    """
+  'CJS Ramda/insert
+    Insert :: Number -> a -> [a] -> [a]' :
+    'prefix': 'rav_insert_doc'
+    'body': """
+    //Insert :: Number -> a -> [a] -> [a]
+    var Insert = require('ramda/insert');
+
+    """
+  'CJS Ramda/insertAll
+    InsertAll :: Number -> [a] -> [a] -> [a]' :
+    'prefix': 'rav_insertAll_doc'
+    'body': """
+    //InsertAll :: Number -> [a] -> [a] -> [a]
+    var InsertAll = require('ramda/insertAll');
+
+    """
+  'CJS Ramda/intersperse
+    Intersperse :: a -> [a] -> [a]' :
+    'prefix': 'rav_intersperse_doc'
+    'body': """
+    //Intersperse :: a -> [a] -> [a]
+    var Intersperse = require('ramda/intersperse');
+
+    """
+  'CJS Ramda/is
+    Is :: (* -> {*}) -> a -> Boolean' :
+    'prefix': 'rav_is_doc'
+    'body': """
+    //Is :: (* -> {*}) -> a -> Boolean
+    var Is = require('ramda/is');
+
+    """
+  'CJS Ramda/isArrayLike
+    IsArrayLike :: * -> Boolean' :
+    'prefix': 'rav_isArrayLike_doc'
+    'body': """
+    //IsArrayLike :: * -> Boolean
+    var IsArrayLike = require('ramda/isArrayLike');
+
+    """
+  'CJS Ramda/isNil
+    IsNil :: * -> Boolean' :
+    'prefix': 'rav_isNil_doc'
+    'body': """
+    //IsNil :: * -> Boolean
+    var IsNil = require('ramda/isNil');
+
+    """
+  'CJS Ramda/keys
+    Keys :: {k: v} -> [k]' :
+    'prefix': 'rav_keys_doc'
+    'body': """
+    //Keys :: {k: v} -> [k]
+    var Keys = require('ramda/keys');
+
+    """
+  'CJS Ramda/keysIn
+    KeysIn :: {k: v} -> [k]' :
+    'prefix': 'rav_keysIn_doc'
+    'body': """
+    //KeysIn :: {k: v} -> [k]
+    var KeysIn = require('ramda/keysIn');
+
+    """
+  'CJS Ramda/length
+    Length :: [a] -> Number' :
+    'prefix': 'rav_length_doc'
+    'body': """
+    //Length :: [a] -> Number
+    var Length = require('ramda/length');
+
+    """
+  'CJS Ramda/lt
+    Lt :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rav_lt_doc'
+    'body': """
+    //Lt :: Ord a => a -> a -> Boolean
+    var Lt = require('ramda/lt');
+
+    """
+  'CJS Ramda/lte
+    Lte :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rav_lte_doc'
+    'body': """
+    //Lte :: Ord a => a -> a -> Boolean
+    var Lte = require('ramda/lte');
+
+    """
+  'CJS Ramda/mapAccum
+    MapAccum :: (acc -> x -> (acc  y)) -> acc -> [x] -> (acc  [y])' :
+    'prefix': 'rav_mapAccum_doc'
+    'body': """
+    //MapAccum :: (acc -> x -> (acc  y)) -> acc -> [x] -> (acc  [y])
+    var MapAccum = require('ramda/mapAccum');
+
+    """
+  'CJS Ramda/mapAccumRight
+    MapAccumRight :: (acc -> x -> (acc  y)) -> acc -> [x] -> (acc  [y])' :
+    'prefix': 'rav_mapAccumRight_doc'
+    'body': """
+    //MapAccumRight :: (acc -> x -> (acc  y)) -> acc -> [x] -> (acc  [y])
+    var MapAccumRight = require('ramda/mapAccumRight');
+
+    """
+  'CJS Ramda/match
+    Match :: RegExp -> String -> [String | Undefined]' :
+    'prefix': 'rav_match_doc'
+    'body': """
+    //Match :: RegExp -> String -> [String | Undefined]
+    var Match = require('ramda/match');
+
+    """
+  'CJS Ramda/mathMod
+    MathMod :: Number -> Number -> Number' :
+    'prefix': 'rav_mathMod_doc'
+    'body': """
+    //MathMod :: Number -> Number -> Number
+    var MathMod = require('ramda/mathMod');
+
+    """
+  'CJS Ramda/max
+    Max :: Ord a => a -> a -> a' :
+    'prefix': 'rav_max_doc'
+    'body': """
+    //Max :: Ord a => a -> a -> a
+    var Max = require('ramda/max');
+
+    """
+  'CJS Ramda/maxBy
+    MaxBy :: Ord b => (a -> b) -> a -> a -> a' :
+    'prefix': 'rav_maxBy_doc'
+    'body': """
+    //MaxBy :: Ord b => (a -> b) -> a -> a -> a
+    var MaxBy = require('ramda/maxBy');
+
+    """
+  'CJS Ramda/merge
+    Merge :: {k: v} -> {k: v} -> {k: v}' :
+    'prefix': 'rav_merge_doc'
+    'body': """
+    //Merge :: {k: v} -> {k: v} -> {k: v}
+    var Merge = require('ramda/merge');
+
+    """
+  'CJS Ramda/mergeAll
+    MergeAll :: [{k: v}] -> {k: v}' :
+    'prefix': 'rav_mergeAll_doc'
+    'body': """
+    //MergeAll :: [{k: v}] -> {k: v}
+    var MergeAll = require('ramda/mergeAll');
+
+    """
+  'CJS Ramda/mergeWithKey
+    MergeWithKey :: (String -> a -> a -> a) -> {a} -> {a} -> {a}' :
+    'prefix': 'rav_mergeWithKey_doc'
+    'body': """
+    //MergeWithKey :: (String -> a -> a -> a) -> {a} -> {a} -> {a}
+    var MergeWithKey = require('ramda/mergeWithKey');
+
+    """
+  'CJS Ramda/min
+    Min :: Ord a => a -> a -> a' :
+    'prefix': 'rav_min_doc'
+    'body': """
+    //Min :: Ord a => a -> a -> a
+    var Min = require('ramda/min');
+
+    """
+  'CJS Ramda/minBy
+    MinBy :: Ord b => (a -> b) -> a -> a -> a' :
+    'prefix': 'rav_minBy_doc'
+    'body': """
+    //MinBy :: Ord b => (a -> b) -> a -> a -> a
+    var MinBy = require('ramda/minBy');
+
+    """
+  'CJS Ramda/modulo
+    Modulo :: Number -> Number -> Number' :
+    'prefix': 'rav_modulo_doc'
+    'body': """
+    //Modulo :: Number -> Number -> Number
+    var Modulo = require('ramda/modulo');
+
+    """
+  'CJS Ramda/multiply
+    Multiply :: Number -> Number -> Number' :
+    'prefix': 'rav_multiply_doc'
+    'body': """
+    //Multiply :: Number -> Number -> Number
+    var Multiply = require('ramda/multiply');
+
+    """
+  'CJS Ramda/nAry
+    NAry :: Number -> (* -> a) -> (* -> a)' :
+    'prefix': 'rav_nAry_doc'
+    'body': """
+    //NAry :: Number -> (* -> a) -> (* -> a)
+    var NAry = require('ramda/nAry');
+
+    """
+  'CJS Ramda/negate
+    Negate :: Number -> Number' :
+    'prefix': 'rav_negate_doc'
+    'body': """
+    //Negate :: Number -> Number
+    var Negate = require('ramda/negate');
+
+    """
+  'CJS Ramda/none
+    None :: (a -> Boolean) -> [a] -> Boolean' :
+    'prefix': 'rav_none_doc'
+    'body': """
+    //None :: (a -> Boolean) -> [a] -> Boolean
+    var None = require('ramda/none');
+
+    """
+  'CJS Ramda/not
+    Not :: * -> Boolean' :
+    'prefix': 'rav_not_doc'
+    'body': """
+    //Not :: * -> Boolean
+    var Not = require('ramda/not');
+
+    """
+  'CJS Ramda/nth
+    Nth :: Number -> [a] -> a | Undefined' :
+    'prefix': 'rav_nth_doc'
+    'body': """
+    //Nth :: Number -> [a] -> a | Undefined
+    var Nth = require('ramda/nth');
+
+    """
+  'CJS Ramda/nthArg
+    NthArg :: Number -> *... -> *' :
+    'prefix': 'rav_nthArg_doc'
+    'body': """
+    //NthArg :: Number -> *... -> *
+    var NthArg = require('ramda/nthArg');
+
+    """
+  'CJS Ramda/objOf
+    ObjOf :: String -> a -> {String:a}' :
+    'prefix': 'rav_objOf_doc'
+    'body': """
+    //ObjOf :: String -> a -> {String:a}
+    var ObjOf = require('ramda/objOf');
+
+    """
+  'CJS Ramda/of
+    Of :: a -> [a]' :
+    'prefix': 'rav_of_doc'
+    'body': """
+    //Of :: a -> [a]
+    var Of = require('ramda/of');
+
+    """
+  'CJS Ramda/once
+    Once :: (a... -> b) -> (a... -> b)' :
+    'prefix': 'rav_once_doc'
+    'body': """
+    //Once :: (a... -> b) -> (a... -> b)
+    var Once = require('ramda/once');
+
+    """
+  'CJS Ramda/or
+    Or :: * -> * -> *' :
+    'prefix': 'rav_or_doc'
+    'body': """
+    //Or :: * -> * -> *
+    var Or = require('ramda/or');
+
+    """
+  'CJS Ramda/over
+    Over :: Lens s a -> (a -> a) -> s -> s' :
+    'prefix': 'rav_over_doc'
+    'body': """
+    //Over :: Lens s a -> (a -> a) -> s -> s
+    var Over = require('ramda/over');
+
+    """
+  'CJS Ramda/pair
+    Pair :: a -> b -> (a b)' :
+    'prefix': 'rav_pair_doc'
+    'body': """
+    //Pair :: a -> b -> (a b)
+    var Pair = require('ramda/pair');
+
+    """
+  'CJS Ramda/path
+    Path :: [String] -> {k: v} -> v | Undefined' :
+    'prefix': 'rav_path_doc'
+    'body': """
+    //Path :: [String] -> {k: v} -> v | Undefined
+    var Path = require('ramda/path');
+
+    """
+  'CJS Ramda/pathOr
+    PathOr :: a -> [String] -> Object -> a' :
+    'prefix': 'rav_pathOr_doc'
+    'body': """
+    //PathOr :: a -> [String] -> Object -> a
+    var PathOr = require('ramda/pathOr');
+
+    """
+  'CJS Ramda/pathSatisfies
+    PathSatisfies :: (a -> Boolean) -> [String] -> Object -> Boolean' :
+    'prefix': 'rav_pathSatisfies_doc'
+    'body': """
+    //PathSatisfies :: (a -> Boolean) -> [String] -> Object -> Boolean
+    var PathSatisfies = require('ramda/pathSatisfies');
+
+    """
+  'CJS Ramda/pick
+    Pick :: [k] -> {k: v} -> {k: v}' :
+    'prefix': 'rav_pick_doc'
+    'body': """
+    //Pick :: [k] -> {k: v} -> {k: v}
+    var Pick = require('ramda/pick');
+
+    """
+  'CJS Ramda/pickAll
+    PickAll :: [k] -> {k: v} -> {k: v}' :
+    'prefix': 'rav_pickAll_doc'
+    'body': """
+    //PickAll :: [k] -> {k: v} -> {k: v}
+    var PickAll = require('ramda/pickAll');
+
+    """
+  'CJS Ramda/pickBy
+    PickBy :: (v  k -> Boolean) -> {k: v} -> {k: v}' :
+    'prefix': 'rav_pickBy_doc'
+    'body': """
+    //PickBy :: (v  k -> Boolean) -> {k: v} -> {k: v}
+    var PickBy = require('ramda/pickBy');
+
+    """
+  'CJS Ramda/prepend
+    Prepend :: a -> [a] -> [a]' :
+    'prefix': 'rav_prepend_doc'
+    'body': """
+    //Prepend :: a -> [a] -> [a]
+    var Prepend = require('ramda/prepend');
+
+    """
+  'CJS Ramda/prop
+    Prop :: s -> {s: a} -> a | Undefined' :
+    'prefix': 'rav_prop_doc'
+    'body': """
+    //Prop :: s -> {s: a} -> a | Undefined
+    var Prop = require('ramda/prop');
+
+    """
+  'CJS Ramda/propOr
+    PropOr :: a -> String -> Object -> a' :
+    'prefix': 'rav_propOr_doc'
+    'body': """
+    //PropOr :: a -> String -> Object -> a
+    var PropOr = require('ramda/propOr');
+
+    """
+  'CJS Ramda/propSatisfies
+    PropSatisfies :: (a -> Boolean) -> String -> {String: a} -> Boolean' :
+    'prefix': 'rav_propSatisfies_doc'
+    'body': """
+    //PropSatisfies :: (a -> Boolean) -> String -> {String: a} -> Boolean
+    var PropSatisfies = require('ramda/propSatisfies');
+
+    """
+  'CJS Ramda/props
+    Props :: [k] -> {k: v} -> [v]' :
+    'prefix': 'rav_props_doc'
+    'body': """
+    //Props :: [k] -> {k: v} -> [v]
+    var Props = require('ramda/props');
+
+    """
+  'CJS Ramda/range
+    Range :: Number -> Number -> [Number]' :
+    'prefix': 'rav_range_doc'
+    'body': """
+    //Range :: Number -> Number -> [Number]
+    var Range = require('ramda/range');
+
+    """
+  'CJS Ramda/reduceRight
+    ReduceRight :: (a b -> a) -> a -> [b] -> a' :
+    'prefix': 'rav_reduceRight_doc'
+    'body': """
+    //ReduceRight :: (a b -> a) -> a -> [b] -> a
+    var ReduceRight = require('ramda/reduceRight');
+
+    """
+  'CJS Ramda/reduced
+    Reduced :: a -> *' :
+    'prefix': 'rav_reduced_doc'
+    'body': """
+    //Reduced :: a -> *
+    var Reduced = require('ramda/reduced');
+
+    """
+  'CJS Ramda/remove
+    Remove :: Number -> Number -> [a] -> [a]' :
+    'prefix': 'rav_remove_doc'
+    'body': """
+    //Remove :: Number -> Number -> [a] -> [a]
+    var Remove = require('ramda/remove');
+
+    """
+  'CJS Ramda/replace
+    Replace :: RegExp|String -> String -> String -> String' :
+    'prefix': 'rav_replace_doc'
+    'body': """
+    //Replace :: RegExp|String -> String -> String -> String
+    var Replace = require('ramda/replace');
+
+    """
+  'CJS Ramda/reverse
+    Reverse :: [a] -> [a]' :
+    'prefix': 'rav_reverse_doc'
+    'body': """
+    //Reverse :: [a] -> [a]
+    var Reverse = require('ramda/reverse');
+
+    """
+  'CJS Ramda/scan
+    Scan :: (a b -> a) -> a -> [b] -> [a]' :
+    'prefix': 'rav_scan_doc'
+    'body': """
+    //Scan :: (a b -> a) -> a -> [b] -> [a]
+    var Scan = require('ramda/scan');
+
+    """
+  'CJS Ramda/set
+    Set :: Lens s a -> a -> s -> s' :
+    'prefix': 'rav_set_doc'
+    'body': """
+    //Set :: Lens s a -> a -> s -> s
+    var Set = require('ramda/set');
+
+    """
+  'CJS Ramda/slice
+    Slice :: Number -> Number -> [a] -> [a]' :
+    'prefix': 'rav_slice_doc'
+    'body': """
+    //Slice :: Number -> Number -> [a] -> [a]
+    var Slice = require('ramda/slice');
+
+    """
+  'CJS Ramda/sort
+    Sort :: (a a -> Number) -> [a] -> [a]' :
+    'prefix': 'rav_sort_doc'
+    'body': """
+    //Sort :: (a a -> Number) -> [a] -> [a]
+    var Sort = require('ramda/sort');
+
+    """
+  'CJS Ramda/sortBy
+    SortBy :: Ord b => (a -> b) -> [a] -> [a]' :
+    'prefix': 'rav_sortBy_doc'
+    'body': """
+    //SortBy :: Ord b => (a -> b) -> [a] -> [a]
+    var SortBy = require('ramda/sortBy');
+
+    """
+  'CJS Ramda/splitAt
+    SplitAt :: Number -> [a] -> [[a]  [a]]' :
+    'prefix': 'rav_splitAt_doc'
+    'body': """
+    //SplitAt :: Number -> [a] -> [[a]  [a]]
+    var SplitAt = require('ramda/splitAt');
+
+    """
+  'CJS Ramda/splitEvery
+    SplitEvery :: Number -> [a] -> [[a]]' :
+    'prefix': 'rav_splitEvery_doc'
+    'body': """
+    //SplitEvery :: Number -> [a] -> [[a]]
+    var SplitEvery = require('ramda/splitEvery');
+
+    """
+  'CJS Ramda/splitWhen
+    SplitWhen :: (a -> Boolean) -> [a] -> [[a]  [a]]' :
+    'prefix': 'rav_splitWhen_doc'
+    'body': """
+    //SplitWhen :: (a -> Boolean) -> [a] -> [[a]  [a]]
+    var SplitWhen = require('ramda/splitWhen');
+
+    """
+  'CJS Ramda/subtract
+    Subtract :: Number -> Number -> Number' :
+    'prefix': 'rav_subtract_doc'
+    'body': """
+    //Subtract :: Number -> Number -> Number
+    var Subtract = require('ramda/subtract');
+
+    """
+  'CJS Ramda/tail
+    Tail :: [a] -> [a]' :
+    'prefix': 'rav_tail_doc'
+    'body': """
+    //Tail :: [a] -> [a]
+    var Tail = require('ramda/tail');
+
+    """
+  'CJS Ramda/take
+    Take :: Number -> [a] -> [a]' :
+    'prefix': 'rav_take_doc'
+    'body': """
+    //Take :: Number -> [a] -> [a]
+    var Take = require('ramda/take');
+
+    """
+  'CJS Ramda/takeLastWhile
+    TakeLastWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rav_takeLastWhile_doc'
+    'body': """
+    //TakeLastWhile :: (a -> Boolean) -> [a] -> [a]
+    var TakeLastWhile = require('ramda/takeLastWhile');
+
+    """
+  'CJS Ramda/takeWhile
+    TakeWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rav_takeWhile_doc'
+    'body': """
+    //TakeWhile :: (a -> Boolean) -> [a] -> [a]
+    var TakeWhile = require('ramda/takeWhile');
+
+    """
+  'CJS Ramda/tap
+    Tap :: (a -> *) -> a -> a' :
+    'prefix': 'rav_tap_doc'
+    'body': """
+    //Tap :: (a -> *) -> a -> a
+    var Tap = require('ramda/tap');
+
+    """
+  'CJS Ramda/times
+    Times :: (Number -> a) -> Number -> [a]' :
+    'prefix': 'rav_times_doc'
+    'body': """
+    //Times :: (Number -> a) -> Number -> [a]
+    var Times = require('ramda/times');
+
+    """
+  'CJS Ramda/toPairs
+    ToPairs :: {String: *} -> [[String *]]' :
+    'prefix': 'rav_toPairs_doc'
+    'body': """
+    //ToPairs :: {String: *} -> [[String *]]
+    var ToPairs = require('ramda/toPairs');
+
+    """
+  'CJS Ramda/toPairsIn
+    ToPairsIn :: {String: *} -> [[String *]]' :
+    'prefix': 'rav_toPairsIn_doc'
+    'body': """
+    //ToPairsIn :: {String: *} -> [[String *]]
+    var ToPairsIn = require('ramda/toPairsIn');
+
+    """
+  'CJS Ramda/transpose
+    Transpose :: [[a]] -> [[a]]' :
+    'prefix': 'rav_transpose_doc'
+    'body': """
+    //Transpose :: [[a]] -> [[a]]
+    var Transpose = require('ramda/transpose');
+
+    """
+  'CJS Ramda/trim
+    Trim :: String -> String' :
+    'prefix': 'rav_trim_doc'
+    'body': """
+    //Trim :: String -> String
+    var Trim = require('ramda/trim');
+
+    """
+  'CJS Ramda/tryCatch
+    TryCatch :: (...x -> a) -> ((e  ...x) -> a) -> (...x -> a)' :
+    'prefix': 'rav_tryCatch_doc'
+    'body': """
+    //TryCatch :: (...x -> a) -> ((e  ...x) -> a) -> (...x -> a)
+    var TryCatch = require('ramda/tryCatch');
+
+    """
+  'CJS Ramda/type
+    Type :: (* -> {*}) -> String' :
+    'prefix': 'rav_type_doc'
+    'body': """
+    //Type :: (* -> {*}) -> String
+    var Type = require('ramda/type');
+
+    """
+  'CJS Ramda/unapply
+    Unapply :: ([*...] -> a) -> (*... -> a)' :
+    'prefix': 'rav_unapply_doc'
+    'body': """
+    //Unapply :: ([*...] -> a) -> (*... -> a)
+    var Unapply = require('ramda/unapply');
+
+    """
+  'CJS Ramda/unary
+    Unary :: (* -> b) -> (a -> b)' :
+    'prefix': 'rav_unary_doc'
+    'body': """
+    //Unary :: (* -> b) -> (a -> b)
+    var Unary = require('ramda/unary');
+
+    """
+  'CJS Ramda/uncurryN
+    UncurryN :: Number -> (a -> b) -> (a -> c)' :
+    'prefix': 'rav_uncurryN_doc'
+    'body': """
+    //UncurryN :: Number -> (a -> b) -> (a -> c)
+    var UncurryN = require('ramda/uncurryN');
+
+    """
+  'CJS Ramda/unfold
+    Unfold :: (a -> [b]) -> * -> [b]' :
+    'prefix': 'rav_unfold_doc'
+    'body': """
+    //Unfold :: (a -> [b]) -> * -> [b]
+    var Unfold = require('ramda/unfold');
+
+    """
+  'CJS Ramda/uniqWith
+    UniqWith :: (a  a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rav_uniqWith_doc'
+    'body': """
+    //UniqWith :: (a  a -> Boolean) -> [a] -> [a]
+    var UniqWith = require('ramda/uniqWith');
+
+    """
+  'CJS Ramda/unless
+    Unless :: (a -> Boolean) -> (a -> a) -> a -> a' :
+    'prefix': 'rav_unless_doc'
+    'body': """
+    //Unless :: (a -> Boolean) -> (a -> a) -> a -> a
+    var Unless = require('ramda/unless');
+
+    """
+  'CJS Ramda/until
+    Until :: (a -> Boolean) -> (a -> a) -> a -> a' :
+    'prefix': 'rav_until_doc'
+    'body': """
+    //Until :: (a -> Boolean) -> (a -> a) -> a -> a
+    var Until = require('ramda/until');
+
+    """
+  'CJS Ramda/update
+    Update :: Number -> a -> [a] -> [a]' :
+    'prefix': 'rav_update_doc'
+    'body': """
+    //Update :: Number -> a -> [a] -> [a]
+    var Update = require('ramda/update');
+
+    """
+  'CJS Ramda/useWith
+    UseWith :: (x1 -> x2 -> ... -> z) -> [(a -> x1)  (b -> x2)  ...] -> (a -> b -> ... -> z)' :
+    'prefix': 'rav_useWith_doc'
+    'body': """
+    //UseWith :: (x1 -> x2 -> ... -> z) -> [(a -> x1)  (b -> x2)  ...] -> (a -> b -> ... -> z)
+    var UseWith = require('ramda/useWith');
+
+    """
+  'CJS Ramda/values
+    Values :: {k: v} -> [v]' :
+    'prefix': 'rav_values_doc'
+    'body': """
+    //Values :: {k: v} -> [v]
+    var Values = require('ramda/values');
+
+    """
+  'CJS Ramda/valuesIn
+    ValuesIn :: {k: v} -> [v]' :
+    'prefix': 'rav_valuesIn_doc'
+    'body': """
+    //ValuesIn :: {k: v} -> [v]
+    var ValuesIn = require('ramda/valuesIn');
+
+    """
+  'CJS Ramda/view
+    View :: Lens s a -> s -> a' :
+    'prefix': 'rav_view_doc'
+    'body': """
+    //View :: Lens s a -> s -> a
+    var View = require('ramda/view');
+
+    """
+  'CJS Ramda/when
+    When :: (a -> Boolean) -> (a -> a) -> a -> a' :
+    'prefix': 'rav_when_doc'
+    'body': """
+    //When :: (a -> Boolean) -> (a -> a) -> a -> a
+    var When = require('ramda/when');
+
+    """
+  'CJS Ramda/where
+    Where :: {String: (* -> Boolean)} -> {String: *} -> Boolean' :
+    'prefix': 'rav_where_doc'
+    'body': """
+    //Where :: {String: (* -> Boolean)} -> {String: *} -> Boolean
+    var Where = require('ramda/where');
+
+    """
+  'CJS Ramda/wrap
+    Wrap :: (a... -> b) -> ((a... -> b) -> a... -> c) -> (a... -> c)' :
+    'prefix': 'rav_wrap_doc'
+    'body': """
+    //Wrap :: (a... -> b) -> ((a... -> b) -> a... -> c) -> (a... -> c)
+    var Wrap = require('ramda/wrap');
+
+    """
+  'CJS Ramda/xprod
+    Xprod :: [a] -> [b] -> [[a b]]' :
+    'prefix': 'rav_xprod_doc'
+    'body': """
+    //Xprod :: [a] -> [b] -> [[a b]]
+    var Xprod = require('ramda/xprod');
+
+    """
+  'CJS Ramda/zip
+    Zip :: [a] -> [b] -> [[a b]]' :
+    'prefix': 'rav_zip_doc'
+    'body': """
+    //Zip :: [a] -> [b] -> [[a b]]
+    var Zip = require('ramda/zip');
+
+    """
+  'CJS Ramda/zipObj
+    ZipObj :: [String] -> [*] -> {String: *}' :
+    'prefix': 'rav_zipObj_doc'
+    'body': """
+    //ZipObj :: [String] -> [*] -> {String: *}
+    var ZipObj = require('ramda/zipObj');
+
+    """
+  'CJS Ramda/zipWith
+    ZipWith :: (a b -> c) -> [a] -> [b] -> [c]' :
+    'prefix': 'rav_zipWith_doc'
+    'body': """
+    //ZipWith :: (a b -> c) -> [a] -> [b] -> [c]
+    var ZipWith = require('ramda/zipWith');
+
+    """
+  'CJS Ramda/F
+    F :: * -> Boolean' :
+    'prefix': 'rav_F_doc'
+    'body': """
+    //F :: * -> Boolean
+    var F = require('ramda/F');
+
+    """
+  'CJS Ramda/T
+    T :: * -> Boolean' :
+    'prefix': 'rav_T_doc'
+    'body': """
+    //T :: * -> Boolean
+    var T = require('ramda/T');
+
+    """
+  'CJS Ramda/addIndex
+    AddIndex :: ((a ... -> b) ... -> [a] -> *) -> (a ...  Int  [a] -> b) ... -> [a] -> *)' :
+    'prefix': 'rav_addIndex_doc'
+    'body': """
+    //AddIndex :: ((a ... -> b) ... -> [a] -> *) -> (a ...  Int  [a] -> b) ... -> [a] -> *)
+    var AddIndex = require('ramda/addIndex');
+
+    """
+  'CJS Ramda/binary
+    Binary :: (* -> c) -> (a  b -> c)' :
+    'prefix': 'rav_binary_doc'
+    'body': """
+    //Binary :: (* -> c) -> (a  b -> c)
+    var Binary = require('ramda/binary');
+
+    """
+  'CJS Ramda/clone
+    Clone :: {*} -> {*}' :
+    'prefix': 'rav_clone_doc'
+    'body': """
+    //Clone :: {*} -> {*}
+    var Clone = require('ramda/clone');
+
+    """
+  'CJS Ramda/curry
+    Curry :: (* -> a) -> (* -> a)' :
+    'prefix': 'rav_curry_doc'
+    'body': """
+    //Curry :: (* -> a) -> (* -> a)
+    var Curry = require('ramda/curry');
+
+    """
+  'CJS Ramda/drop
+    Drop :: Number -> [a] -> [a]' :
+    'prefix': 'rav_drop_doc'
+    'body': """
+    //Drop :: Number -> [a] -> [a]
+    var Drop = require('ramda/drop');
+
+    """
+  'CJS Ramda/dropLast
+    DropLast :: Number -> [a] -> [a]' :
+    'prefix': 'rav_dropLast_doc'
+    'body': """
+    //DropLast :: Number -> [a] -> [a]
+    var DropLast = require('ramda/dropLast');
+
+    """
+  'CJS Ramda/dropLastWhile
+    DropLastWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rav_dropLastWhile_doc'
+    'body': """
+    //DropLastWhile :: (a -> Boolean) -> [a] -> [a]
+    var DropLastWhile = require('ramda/dropLastWhile');
+
+    """
+  'CJS Ramda/equals
+    Equals :: a -> b -> Boolean' :
+    'prefix': 'rav_equals_doc'
+    'body': """
+    //Equals :: a -> b -> Boolean
+    var Equals = require('ramda/equals');
+
+    """
+  'CJS Ramda/filter
+    Filter :: Filterable f => (a -> Boolean) -> f a -> f a' :
+    'prefix': 'rav_filter_doc'
+    'body': """
+    //Filter :: Filterable f => (a -> Boolean) -> f a -> f a
+    var Filter = require('ramda/filter');
+
+    """
+  'CJS Ramda/flatten
+    Flatten :: [a] -> [b]' :
+    'prefix': 'rav_flatten_doc'
+    'body': """
+    //Flatten :: [a] -> [b]
+    var Flatten = require('ramda/flatten');
+
+    """
+  'CJS Ramda/flip
+    Flip :: (a -> b -> c -> ... -> z) -> (b -> a -> c -> ... -> z)' :
+    'prefix': 'rav_flip_doc'
+    'body': """
+    //Flip :: (a -> b -> c -> ... -> z) -> (b -> a -> c -> ... -> z)
+    var Flip = require('ramda/flip');
+
+    """
+  'CJS Ramda/head
+    Head :: [a] -> a | Undefined' :
+    'prefix': 'rav_head_doc'
+    'body': """
+    //Head :: [a] -> a | Undefined
+    var Head = require('ramda/head');
+
+    """
+  'CJS Ramda/init
+    Init :: [a] -> [a]' :
+    'prefix': 'rav_init_doc'
+    'body': """
+    //Init :: [a] -> [a]
+    var Init = require('ramda/init');
+
+    """
+  'CJS Ramda/intersectionWith
+    IntersectionWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]' :
+    'prefix': 'rav_intersectionWith_doc'
+    'body': """
+    //IntersectionWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]
+    var IntersectionWith = require('ramda/intersectionWith');
+
+    """
+  'CJS Ramda/into
+    Into :: a -> (b -> b) -> [c] -> a' :
+    'prefix': 'rav_into_doc'
+    'body': """
+    //Into :: a -> (b -> b) -> [c] -> a
+    var Into = require('ramda/into');
+
+    """
+  'CJS Ramda/invert
+    Invert :: {s: x} -> {x: [ s  ... ]}' :
+    'prefix': 'rav_invert_doc'
+    'body': """
+    //Invert :: {s: x} -> {x: [ s  ... ]}
+    var Invert = require('ramda/invert');
+
+    """
+  'CJS Ramda/invertObj
+    InvertObj :: {s: x} -> {x: s}' :
+    'prefix': 'rav_invertObj_doc'
+    'body': """
+    //InvertObj :: {s: x} -> {x: s}
+    var InvertObj = require('ramda/invertObj');
+
+    """
+  'CJS Ramda/isEmpty
+    IsEmpty :: a -> Boolean' :
+    'prefix': 'rav_isEmpty_doc'
+    'body': """
+    //IsEmpty :: a -> Boolean
+    var IsEmpty = require('ramda/isEmpty');
+
+    """
+  'CJS Ramda/last
+    Last :: [a] -> a | Undefined' :
+    'prefix': 'rav_last_doc'
+    'body': """
+    //Last :: [a] -> a | Undefined
+    var Last = require('ramda/last');
+
+    """
+  'CJS Ramda/lastIndexOf
+    LastIndexOf :: a -> [a] -> Number' :
+    'prefix': 'rav_lastIndexOf_doc'
+    'body': """
+    //LastIndexOf :: a -> [a] -> Number
+    var LastIndexOf = require('ramda/lastIndexOf');
+
+    """
+  'CJS Ramda/map
+    Map :: Functor f => (a -> b) -> f a -> f b' :
+    'prefix': 'rav_map_doc'
+    'body': """
+    //Map :: Functor f => (a -> b) -> f a -> f b
+    var Map = require('ramda/map');
+
+    """
+  'CJS Ramda/mapObjIndexed
+    MapObjIndexed :: ((*  String  Object) -> *) -> Object -> Object' :
+    'prefix': 'rav_mapObjIndexed_doc'
+    'body': """
+    //MapObjIndexed :: ((*  String  Object) -> *) -> Object -> Object
+    var MapObjIndexed = require('ramda/mapObjIndexed');
+
+    """
+  'CJS Ramda/mergeWith
+    MergeWith :: (a -> a -> a) -> {a} -> {a} -> {a}' :
+    'prefix': 'rav_mergeWith_doc'
+    'body': """
+    //MergeWith :: (a -> a -> a) -> {a} -> {a} -> {a}
+    var MergeWith = require('ramda/mergeWith');
+
+    """
+  'CJS Ramda/partial
+    Partial :: ((a  b  c  ...  n) -> x) -> [a  b  c  ...] -> ((d  e  f  ...  n) -> x)' :
+    'prefix': 'rav_partial_doc'
+    'body': """
+    //Partial :: ((a  b  c  ...  n) -> x) -> [a  b  c  ...] -> ((d  e  f  ...  n) -> x)
+    var Partial = require('ramda/partial');
+
+    """
+  'CJS Ramda/partialRight
+    PartialRight :: ((a  b  c  ...  n) -> x) -> [d  e  f  ...  n] -> ((a  b  c  ...) -> x)' :
+    'prefix': 'rav_partialRight_doc'
+    'body': """
+    //PartialRight :: ((a  b  c  ...  n) -> x) -> [d  e  f  ...  n] -> ((a  b  c  ...) -> x)
+    var PartialRight = require('ramda/partialRight');
+
+    """
+  'CJS Ramda/pathEq
+    PathEq :: [String] -> * -> {String: *} -> Boolean' :
+    'prefix': 'rav_pathEq_doc'
+    'body': """
+    //PathEq :: [String] -> * -> {String: *} -> Boolean
+    var PathEq = require('ramda/pathEq');
+
+    """
+  'CJS Ramda/pluck
+    Pluck :: k -> [{k: v}] -> [v]' :
+    'prefix': 'rav_pluck_doc'
+    'body': """
+    //Pluck :: k -> [{k: v}] -> [v]
+    var Pluck = require('ramda/pluck');
+
+    """
+  'CJS Ramda/project
+    Project :: [k] -> [{k: v}] -> [{k: v}]' :
+    'prefix': 'rav_project_doc'
+    'body': """
+    //Project :: [k] -> [{k: v}] -> [{k: v}]
+    var Project = require('ramda/project');
+
+    """
+  'CJS Ramda/propEq
+    PropEq :: String -> a -> Object -> Boolean' :
+    'prefix': 'rav_propEq_doc'
+    'body': """
+    //PropEq :: String -> a -> Object -> Boolean
+    var PropEq = require('ramda/propEq');
+
+    """
+  'CJS Ramda/propIs
+    PropIs :: Type -> String -> Object -> Boolean' :
+    'prefix': 'rav_propIs_doc'
+    'body': """
+    //PropIs :: Type -> String -> Object -> Boolean
+    var PropIs = require('ramda/propIs');
+
+    """
+  'CJS Ramda/reduce
+    Reduce :: ((a  b) -> a) -> a -> [b] -> a' :
+    'prefix': 'rav_reduce_doc'
+    'body': """
+    //Reduce :: ((a  b) -> a) -> a -> [b] -> a
+    var Reduce = require('ramda/reduce');
+
+    """
+  'CJS Ramda/reduceBy
+    ReduceBy :: ((a  b) -> a) -> a -> (b -> String) -> [b] -> {String: a}' :
+    'prefix': 'rav_reduceBy_doc'
+    'body': """
+    //ReduceBy :: ((a  b) -> a) -> a -> (b -> String) -> [b] -> {String: a}
+    var ReduceBy = require('ramda/reduceBy');
+
+    """
+  'CJS Ramda/reject
+    Reject :: Filterable f => (a -> Boolean) -> f a -> f a' :
+    'prefix': 'rav_reject_doc'
+    'body': """
+    //Reject :: Filterable f => (a -> Boolean) -> f a -> f a
+    var Reject = require('ramda/reject');
+
+    """
+  'CJS Ramda/repeat
+    Repeat :: a -> n -> [a]' :
+    'prefix': 'rav_repeat_doc'
+    'body': """
+    //Repeat :: a -> n -> [a]
+    var Repeat = require('ramda/repeat');
+
+    """
+  'CJS Ramda/sum
+    Sum :: [Number] -> Number' :
+    'prefix': 'rav_sum_doc'
+    'body': """
+    //Sum :: [Number] -> Number
+    var Sum = require('ramda/sum');
+
+    """
+  'CJS Ramda/takeLast
+    TakeLast :: Number -> [a] -> [a]' :
+    'prefix': 'rav_takeLast_doc'
+    'body': """
+    //TakeLast :: Number -> [a] -> [a]
+    var TakeLast = require('ramda/takeLast');
+
+    """
+  'CJS Ramda/transduce
+    Transduce :: (c -> c) -> (a b -> a) -> a -> [b] -> a' :
+    'prefix': 'rav_transduce_doc'
+    'body': """
+    //Transduce :: (c -> c) -> (a b -> a) -> a -> [b] -> a
+    var Transduce = require('ramda/transduce');
+
+    """
+  'CJS Ramda/unionWith
+    UnionWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]' :
+    'prefix': 'rav_unionWith_doc'
+    'body': """
+    //UnionWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]
+    var UnionWith = require('ramda/unionWith');
+
+    """
+  'CJS Ramda/whereEq
+    WhereEq :: {String: *} -> {String: *} -> Boolean' :
+    'prefix': 'rav_whereEq_doc'
+    'body': """
+    //WhereEq :: {String: *} -> {String: *} -> Boolean
+    var WhereEq = require('ramda/whereEq');
+
+    """
+  'CJS Ramda/allPass
+    AllPass :: [(*... -> Boolean)] -> (*... -> Boolean)' :
+    'prefix': 'rav_allPass_doc'
+    'body': """
+    //AllPass :: [(*... -> Boolean)] -> (*... -> Boolean)
+    var AllPass = require('ramda/allPass');
+
+    """
+  'CJS Ramda/allUniq
+    AllUniq :: [a] -> Boolean' :
+    'prefix': 'rav_allUniq_doc'
+    'body': """
+    //AllUniq :: [a] -> Boolean
+    var AllUniq = require('ramda/allUniq');
+
+    """
+  'CJS Ramda/anyPass
+    AnyPass :: [(*... -> Boolean)] -> (*... -> Boolean)' :
+    'prefix': 'rav_anyPass_doc'
+    'body': """
+    //AnyPass :: [(*... -> Boolean)] -> (*... -> Boolean)
+    var AnyPass = require('ramda/anyPass');
+
+    """
+  'CJS Ramda/ap
+    Ap :: [f] -> [a] -> [f a]' :
+    'prefix': 'rav_ap_doc'
+    'body': """
+    //Ap :: [f] -> [a] -> [f a]
+    var Ap = require('ramda/ap');
+
+    """
+  'CJS Ramda/applySpec
+    ApplySpec :: {k: ((a  b  ...  m) -> v)} -> ((a  b  ...  m) -> {k: v})' :
+    'prefix': 'rav_applySpec_doc'
+    'body': """
+    //ApplySpec :: {k: ((a  b  ...  m) -> v)} -> ((a  b  ...  m) -> {k: v})
+    var ApplySpec = require('ramda/applySpec');
+
+    """
+  'CJS Ramda/call
+    Call :: (*... -> a) *... -> a' :
+    'prefix': 'rav_call_doc'
+    'body': """
+    //Call :: (*... -> a) *... -> a
+    var Call = require('ramda/call');
+
+    """
+  'CJS Ramda/chain
+    Chain :: (a -> [b]) -> [a] -> [b]' :
+    'prefix': 'rav_chain_doc'
+    'body': """
+    //Chain :: (a -> [b]) -> [a] -> [b]
+    var Chain = require('ramda/chain');
+
+    """
+  'CJS Ramda/cond
+    Cond :: [[(*... -> Boolean) (*... -> *)]] -> (*... -> *)' :
+    'prefix': 'rav_cond_doc'
+    'body': """
+    //Cond :: [[(*... -> Boolean) (*... -> *)]] -> (*... -> *)
+    var Cond = require('ramda/cond');
+
+    """
+  'CJS Ramda/constructN
+    ConstructN :: Number -> (* -> {*}) -> (* -> {*})' :
+    'prefix': 'rav_constructN_doc'
+    'body': """
+    //ConstructN :: Number -> (* -> {*}) -> (* -> {*})
+    var ConstructN = require('ramda/constructN');
+
+    """
+  'CJS Ramda/converge
+    Converge :: (x1 -> x2 -> ... -> z) -> [(a -> b -> ... -> x1)  (a -> b -> ... -> x2)  ...] -> (a -> b -> ... -> z)' :
+    'prefix': 'rav_converge_doc'
+    'body': """
+    //Converge :: (x1 -> x2 -> ... -> z) -> [(a -> b -> ... -> x1)  (a -> b -> ... -> x2)  ...] -> (a -> b -> ... -> z)
+    var Converge = require('ramda/converge');
+
+    """
+  'CJS Ramda/countBy
+    CountBy :: (a -> String) -> [a] -> {*}' :
+    'prefix': 'rav_countBy_doc'
+    'body': """
+    //CountBy :: (a -> String) -> [a] -> {*}
+    var CountBy = require('ramda/countBy');
+
+    """
+  'CJS Ramda/dropRepeatsWith
+    DropRepeatsWith :: (a  a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rav_dropRepeatsWith_doc'
+    'body': """
+    //DropRepeatsWith :: (a  a -> Boolean) -> [a] -> [a]
+    var DropRepeatsWith = require('ramda/dropRepeatsWith');
+
+    """
+  'CJS Ramda/eqBy
+    EqBy :: (a -> b) -> a -> a -> Boolean' :
+    'prefix': 'rav_eqBy_doc'
+    'body': """
+    //EqBy :: (a -> b) -> a -> a -> Boolean
+    var EqBy = require('ramda/eqBy');
+
+    """
+  'CJS Ramda/eqProps
+    EqProps :: k -> {k: v} -> {k: v} -> Boolean' :
+    'prefix': 'rav_eqProps_doc'
+    'body': """
+    //EqProps :: k -> {k: v} -> {k: v} -> Boolean
+    var EqProps = require('ramda/eqProps');
+
+    """
+  'CJS Ramda/groupBy
+    GroupBy :: (a -> String) -> [a] -> {String: [a]}' :
+    'prefix': 'rav_groupBy_doc'
+    'body': """
+    //GroupBy :: (a -> String) -> [a] -> {String: [a]}
+    var GroupBy = require('ramda/groupBy');
+
+    """
+  'CJS Ramda/indexBy
+    IndexBy :: (a -> String) -> [{k: v}] -> {k: {k: v}}' :
+    'prefix': 'rav_indexBy_doc'
+    'body': """
+    //IndexBy :: (a -> String) -> [{k: v}] -> {k: {k: v}}
+    var IndexBy = require('ramda/indexBy');
+
+    """
+  'CJS Ramda/indexOf
+    IndexOf :: a -> [a] -> Number' :
+    'prefix': 'rav_indexOf_doc'
+    'body': """
+    //IndexOf :: a -> [a] -> Number
+    var IndexOf = require('ramda/indexOf');
+
+    """
+  'CJS Ramda/juxt
+    Juxt :: [(a  b  ...  m) -> n] -> ((a  b  ...  m) -> [n])' :
+    'prefix': 'rav_juxt_doc'
+    'body': """
+    //Juxt :: [(a  b  ...  m) -> n] -> ((a  b  ...  m) -> [n])
+    var Juxt = require('ramda/juxt');
+
+    """
+  'CJS Ramda/lens
+    Lens :: (s -> a) -> ((a  s) -> s) -> Lens s a' :
+    'prefix': 'rav_lens_doc'
+    'body': """
+    //Lens :: (s -> a) -> ((a  s) -> s) -> Lens s a
+    var Lens = require('ramda/lens');
+
+    """
+  'CJS Ramda/lensIndex
+    LensIndex :: Number -> Lens s a' :
+    'prefix': 'rav_lensIndex_doc'
+    'body': """
+    //LensIndex :: Number -> Lens s a
+    var LensIndex = require('ramda/lensIndex');
+
+    """
+  'CJS Ramda/lensPath
+    LensPath :: [String] -> Lens s a' :
+    'prefix': 'rav_lensPath_doc'
+    'body': """
+    //LensPath :: [String] -> Lens s a
+    var LensPath = require('ramda/lensPath');
+
+    """
+  'CJS Ramda/lensProp
+    LensProp :: String -> Lens s a' :
+    'prefix': 'rav_lensProp_doc'
+    'body': """
+    //LensProp :: String -> Lens s a
+    var LensProp = require('ramda/lensProp');
+
+    """
+  'CJS Ramda/liftN
+    LiftN :: Number -> (*... -> *) -> ([*]... -> [*])' :
+    'prefix': 'rav_liftN_doc'
+    'body': """
+    //LiftN :: Number -> (*... -> *) -> ([*]... -> [*])
+    var LiftN = require('ramda/liftN');
+
+    """
+  'CJS Ramda/mean
+    Mean :: [Number] -> Number' :
+    'prefix': 'rav_mean_doc'
+    'body': """
+    //Mean :: [Number] -> Number
+    var Mean = require('ramda/mean');
+
+    """
+  'CJS Ramda/median
+    Median :: [Number] -> Number' :
+    'prefix': 'rav_median_doc'
+    'body': """
+    //Median :: [Number] -> Number
+    var Median = require('ramda/median');
+
+    """
+  'CJS Ramda/partition
+    Partition :: Filterable f => (a -> Boolean) -> f a -> [f a  f a]' :
+    'prefix': 'rav_partition_doc'
+    'body': """
+    //Partition :: Filterable f => (a -> Boolean) -> f a -> [f a  f a]
+    var Partition = require('ramda/partition');
+
+    """
+  'CJS Ramda/pipe
+    Pipe :: (((a  b  ...  n) -> o)  (o -> p)  ...  (x -> y)  (y -> z)) -> ((a  b  ...  n) -> z)' :
+    'prefix': 'rav_pipe_doc'
+    'body': """
+    //Pipe :: (((a  b  ...  n) -> o)  (o -> p)  ...  (x -> y)  (y -> z)) -> ((a  b  ...  n) -> z)
+    var Pipe = require('ramda/pipe');
+
+    """
+  'CJS Ramda/pipeP
+    PipeP :: ((a -> Promise b)  (b -> Promise c)  ...  (y -> Promise z)) -> (a -> Promise z)' :
+    'prefix': 'rav_pipeP_doc'
+    'body': """
+    //PipeP :: ((a -> Promise b)  (b -> Promise c)  ...  (y -> Promise z)) -> (a -> Promise z)
+    var PipeP = require('ramda/pipeP');
+
+    """
+  'CJS Ramda/product
+    Product :: [Number] -> Number' :
+    'prefix': 'rav_product_doc'
+    'body': """
+    //Product :: [Number] -> Number
+    var Product = require('ramda/product');
+
+    """
+  'CJS Ramda/sequence
+    Sequence :: (Applicative f  Traversable t) => (a -> f a) -> t (f a) -> f (t a)' :
+    'prefix': 'rav_sequence_doc'
+    'body': """
+    //Sequence :: (Applicative f  Traversable t) => (a -> f a) -> t (f a) -> f (t a)
+    var Sequence = require('ramda/sequence');
+
+    """
+  'CJS Ramda/traverse
+    Traverse :: (Applicative f  Traversable t) => (a -> f a) -> (a -> f b) -> t a -> f (t b)' :
+    'prefix': 'rav_traverse_doc'
+    'body': """
+    //Traverse :: (Applicative f  Traversable t) => (a -> f a) -> (a -> f b) -> t a -> f (t b)
+    var Traverse = require('ramda/traverse');
+
+    """
+  'CJS Ramda/unnest
+    Unnest :: Chain c => c (c a) -> c a' :
+    'prefix': 'rav_unnest_doc'
+    'body': """
+    //Unnest :: Chain c => c (c a) -> c a
+    var Unnest = require('ramda/unnest');
+
+    """
+  'CJS Ramda/compose
+    Compose :: ((y -> z)  (x -> y)  ...  (o -> p)  ((a  b  ...  n) -> o)) -> ((a  b  ...  n) -> z)' :
+    'prefix': 'rav_compose_doc'
+    'body': """
+    //Compose :: ((y -> z)  (x -> y)  ...  (o -> p)  ((a  b  ...  n) -> o)) -> ((a  b  ...  n) -> z)
+    var Compose = require('ramda/compose');
+
+    """
+  'CJS Ramda/composeK
+    ComposeK :: Chain m => ((y -> m z)  (x -> m y)  ...  (a -> m b)) -> (m a -> m z)' :
+    'prefix': 'rav_composeK_doc'
+    'body': """
+    //ComposeK :: Chain m => ((y -> m z)  (x -> m y)  ...  (a -> m b)) -> (m a -> m z)
+    var ComposeK = require('ramda/composeK');
+
+    """
+  'CJS Ramda/composeP
+    ComposeP :: ((y -> Promise z)  (x -> Promise y)  ...  (a -> Promise b)) -> (a -> Promise z)' :
+    'prefix': 'rav_composeP_doc'
+    'body': """
+    //ComposeP :: ((y -> Promise z)  (x -> Promise y)  ...  (a -> Promise b)) -> (a -> Promise z)
+    var ComposeP = require('ramda/composeP');
+
+    """
+  'CJS Ramda/construct
+    Construct :: (* -> {*}) -> (* -> {*})' :
+    'prefix': 'rav_construct_doc'
+    'body': """
+    //Construct :: (* -> {*}) -> (* -> {*})
+    var Construct = require('ramda/construct');
+
+    """
+  'CJS Ramda/contains
+    Contains :: a -> [a] -> Boolean' :
+    'prefix': 'rav_contains_doc'
+    'body': """
+    //Contains :: a -> [a] -> Boolean
+    var Contains = require('ramda/contains');
+
+    """
+  'CJS Ramda/difference
+    Difference :: [*] -> [*] -> [*]' :
+    'prefix': 'rav_difference_doc'
+    'body': """
+    //Difference :: [*] -> [*] -> [*]
+    var Difference = require('ramda/difference');
+
+    """
+  'CJS Ramda/dropRepeats
+    DropRepeats :: [a] -> [a]' :
+    'prefix': 'rav_dropRepeats_doc'
+    'body': """
+    //DropRepeats :: [a] -> [a]
+    var DropRepeats = require('ramda/dropRepeats');
+
+    """
+  'CJS Ramda/lift
+    Lift :: (*... -> *) -> ([*]... -> [*])' :
+    'prefix': 'rav_lift_doc'
+    'body': """
+    //Lift :: (*... -> *) -> ([*]... -> [*])
+    var Lift = require('ramda/lift');
+
+    """
+  'CJS Ramda/omit
+    Omit :: [String] -> {String: *} -> {String: *}' :
+    'prefix': 'rav_omit_doc'
+    'body': """
+    //Omit :: [String] -> {String: *} -> {String: *}
+    var Omit = require('ramda/omit');
+
+    """
+  'CJS Ramda/pipeK
+    PipeK :: Chain m => ((a -> m b)  (b -> m c)  ...  (y -> m z)) -> (m a -> m z)' :
+    'prefix': 'rav_pipeK_doc'
+    'body': """
+    //PipeK :: Chain m => ((a -> m b)  (b -> m c)  ...  (y -> m z)) -> (m a -> m z)
+    var PipeK = require('ramda/pipeK');
+
+    """
+  'CJS Ramda/toString
+    ToString :: * -> String' :
+    'prefix': 'rav_toString_doc'
+    'body': """
+    //ToString :: * -> String
+    var ToString = require('ramda/toString');
+
+    """
+  'CJS Ramda/without
+    Without :: [a] -> [a] -> [a]' :
+    'prefix': 'rav_without_doc'
+    'body': """
+    //Without :: [a] -> [a] -> [a]
+    var Without = require('ramda/without');
+
+    """
+  'CJS Ramda/both
+    Both :: (*... -> Boolean) -> (*... -> Boolean) -> (*... -> Boolean)' :
+    'prefix': 'rav_both_doc'
+    'body': """
+    //Both :: (*... -> Boolean) -> (*... -> Boolean) -> (*... -> Boolean)
+    var Both = require('ramda/both');
+
+    """
+  'CJS Ramda/complement
+    Complement :: (*... -> *) -> (*... -> Boolean)' :
+    'prefix': 'rav_complement_doc'
+    'body': """
+    //Complement :: (*... -> *) -> (*... -> Boolean)
+    var Complement = require('ramda/complement');
+
+    """
+  'CJS Ramda/either
+    Either :: (*... -> Boolean) -> (*... -> Boolean) -> (*... -> Boolean)' :
+    'prefix': 'rav_either_doc'
+    'body': """
+    //Either :: (*... -> Boolean) -> (*... -> Boolean) -> (*... -> Boolean)
+    var Either = require('ramda/either');
+
+    """
+  'CJS Ramda/invoker
+    Invoker :: Number -> String -> (a -> b -> ... -> n -> Object -> *)' :
+    'prefix': 'rav_invoker_doc'
+    'body': """
+    //Invoker :: Number -> String -> (a -> b -> ... -> n -> Object -> *)
+    var Invoker = require('ramda/invoker');
+
+    """
+  'CJS Ramda/join
+    Join :: String -> [a] -> String' :
+    'prefix': 'rav_join_doc'
+    'body': """
+    //Join :: String -> [a] -> String
+    var Join = require('ramda/join');
+
+    """
+  'CJS Ramda/memoize
+    Memoize :: (*... -> a) -> (*... -> a)' :
+    'prefix': 'rav_memoize_doc'
+    'body': """
+    //Memoize :: (*... -> a) -> (*... -> a)
+    var Memoize = require('ramda/memoize');
+
+    """
+  'CJS Ramda/split
+    Split :: (String | RegExp) -> String -> [String]' :
+    'prefix': 'rav_split_doc'
+    'body': """
+    //Split :: (String | RegExp) -> String -> [String]
+    var Split = require('ramda/split');
+
+    """
+  'CJS Ramda/test
+    Test :: RegExp -> String -> Boolean' :
+    'prefix': 'rav_test_doc'
+    'body': """
+    //Test :: RegExp -> String -> Boolean
+    var Test = require('ramda/test');
+
+    """
+  'CJS Ramda/toLower
+    ToLower :: String -> String' :
+    'prefix': 'rav_toLower_doc'
+    'body': """
+    //ToLower :: String -> String
+    var ToLower = require('ramda/toLower');
+
+    """
+  'CJS Ramda/toUpper
+    ToUpper :: String -> String' :
+    'prefix': 'rav_toUpper_doc'
+    'body': """
+    //ToUpper :: String -> String
+    var ToUpper = require('ramda/toUpper');
+
+    """
+  'CJS Ramda/uniqBy
+    UniqBy :: (a -> b) -> [a] -> [a]' :
+    'prefix': 'rav_uniqBy_doc'
+    'body': """
+    //UniqBy :: (a -> b) -> [a] -> [a]
+    var UniqBy = require('ramda/uniqBy');
+
+    """
+  'CJS Ramda/concat
+    Concat :: [a] -> [a] -> [a]' :
+    'prefix': 'rav_concat_doc'
+    'body': """
+    //Concat :: [a] -> [a] -> [a]
+    var Concat = require('ramda/concat');
+
+    """
+  'CJS Ramda/symmetricDifference
+    SymmetricDifference :: [*] -> [*] -> [*]' :
+    'prefix': 'rav_symmetricDifference_doc'
+    'body': """
+    //SymmetricDifference :: [*] -> [*] -> [*]
+    var SymmetricDifference = require('ramda/symmetricDifference');
+
+    """
+  'CJS Ramda/symmetricDifferenceWith
+    SymmetricDifferenceWith :: (a -> a -> Boolean) -> [a] -> [a] -> [a]' :
+    'prefix': 'rav_symmetricDifferenceWith_doc'
+    'body': """
+    //SymmetricDifferenceWith :: (a -> a -> Boolean) -> [a] -> [a] -> [a]
+    var SymmetricDifferenceWith = require('ramda/symmetricDifferenceWith');
+
+    """
+  'CJS Ramda/uniq
+    Uniq :: [a] -> [a]' :
+    'prefix': 'rav_uniq_doc'
+    'body': """
+    //Uniq :: [a] -> [a]
+    var Uniq = require('ramda/uniq');
+
+    """
+  'CJS Ramda/intersection
+    Intersection :: [*] -> [*] -> [*]' :
+    'prefix': 'rav_intersection_doc'
+    'body': """
+    //Intersection :: [*] -> [*] -> [*]
+    var Intersection = require('ramda/intersection');
+
+    """
+  'CJS Ramda/union
+    Union :: [*] -> [*] -> [*]' :
+    'prefix': 'rav_union_doc'
+    'body': """
+    //Union :: [*] -> [*] -> [*]
+    var Union = require('ramda/union');
+
+    """

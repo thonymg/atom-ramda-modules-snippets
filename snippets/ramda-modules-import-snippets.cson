@@ -1,0 +1,1645 @@
+'.source.js.jsx':
+  'ES6 import Ramda/__' :
+    'prefix': 'rai___'
+    'body': """
+    import __ from 'ramda/__';
+
+    """
+  'ES6 import Ramda/add
+    Add :: Number -> Number -> Number' :
+    'prefix': 'rai_add'
+    'body': """
+    import Add from 'ramda/add';
+
+    """
+  'ES6 import Ramda/adjust
+    Adjust :: (a -> a) -> Number -> [a] -> [a]' :
+    'prefix': 'rai_adjust'
+    'body': """
+    import Adjust from 'ramda/adjust';
+
+    """
+  'ES6 import Ramda/all
+    All :: (a -> Boolean) -> [a] -> Boolean' :
+    'prefix': 'rai_all'
+    'body': """
+    import All from 'ramda/all';
+
+    """
+  'ES6 import Ramda/always
+    Always :: a -> (* -> a)' :
+    'prefix': 'rai_always'
+    'body': """
+    import Always from 'ramda/always';
+
+    """
+  'ES6 import Ramda/and
+    And :: * -> * -> *' :
+    'prefix': 'rai_and'
+    'body': """
+    import And from 'ramda/and';
+
+    """
+  'ES6 import Ramda/any
+    Any :: (a -> Boolean) -> [a] -> Boolean' :
+    'prefix': 'rai_any'
+    'body': """
+    import Any from 'ramda/any';
+
+    """
+  'ES6 import Ramda/aperture
+    Aperture :: Number -> [a] -> [[a]]' :
+    'prefix': 'rai_aperture'
+    'body': """
+    import Aperture from 'ramda/aperture';
+
+    """
+  'ES6 import Ramda/append
+    Append :: a -> [a] -> [a]' :
+    'prefix': 'rai_append'
+    'body': """
+    import Append from 'ramda/append';
+
+    """
+  'ES6 import Ramda/apply
+    Apply :: (*... -> a) -> [*] -> a' :
+    'prefix': 'rai_apply'
+    'body': """
+    import Apply from 'ramda/apply';
+
+    """
+  'ES6 import Ramda/assoc
+    Assoc :: String -> a -> {k: v} -> {k: v}' :
+    'prefix': 'rai_assoc'
+    'body': """
+    import Assoc from 'ramda/assoc';
+
+    """
+  'ES6 import Ramda/assocPath
+    AssocPath :: [String] -> a -> {k: v} -> {k: v}' :
+    'prefix': 'rai_assocPath'
+    'body': """
+    import AssocPath from 'ramda/assocPath';
+
+    """
+  'ES6 import Ramda/bind
+    Bind :: (* -> *) -> {*} -> (* -> *)' :
+    'prefix': 'rai_bind'
+    'body': """
+    import Bind from 'ramda/bind';
+
+    """
+  'ES6 import Ramda/clamp
+    Clamp :: Ord a => a -> a -> a -> a' :
+    'prefix': 'rai_clamp'
+    'body': """
+    import Clamp from 'ramda/clamp';
+
+    """
+  'ES6 import Ramda/comparator
+    Comparator :: (a  b -> Boolean) -> (a  b -> Number)' :
+    'prefix': 'rai_comparator'
+    'body': """
+    import Comparator from 'ramda/comparator';
+
+    """
+  'ES6 import Ramda/curryN
+    CurryN :: Number -> (* -> a) -> (* -> a)' :
+    'prefix': 'rai_curryN'
+    'body': """
+    import CurryN from 'ramda/curryN';
+
+    """
+  'ES6 import Ramda/dec
+    Dec :: Number -> Number' :
+    'prefix': 'rai_dec'
+    'body': """
+    import Dec from 'ramda/dec';
+
+    """
+  'ES6 import Ramda/defaultTo
+    DefaultTo :: a -> b -> a | b' :
+    'prefix': 'rai_defaultTo'
+    'body': """
+    import DefaultTo from 'ramda/defaultTo';
+
+    """
+  'ES6 import Ramda/differenceWith
+    DifferenceWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]' :
+    'prefix': 'rai_differenceWith'
+    'body': """
+    import DifferenceWith from 'ramda/differenceWith';
+
+    """
+  'ES6 import Ramda/dissoc
+    Dissoc :: String -> {k: v} -> {k: v}' :
+    'prefix': 'rai_dissoc'
+    'body': """
+    import Dissoc from 'ramda/dissoc';
+
+    """
+  'ES6 import Ramda/dissocPath
+    DissocPath :: [String] -> {k: v} -> {k: v}' :
+    'prefix': 'rai_dissocPath'
+    'body': """
+    import DissocPath from 'ramda/dissocPath';
+
+    """
+  'ES6 import Ramda/divide
+    Divide :: Number -> Number -> Number' :
+    'prefix': 'rai_divide'
+    'body': """
+    import Divide from 'ramda/divide';
+
+    """
+  'ES6 import Ramda/dropWhile
+    DropWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rai_dropWhile'
+    'body': """
+    import DropWhile from 'ramda/dropWhile';
+
+    """
+  'ES6 import Ramda/empty
+    Empty :: a -> a' :
+    'prefix': 'rai_empty'
+    'body': """
+    import Empty from 'ramda/empty';
+
+    """
+  'ES6 import Ramda/evolve
+    Evolve :: {k: (v -> v)} -> {k: v} -> {k: v}' :
+    'prefix': 'rai_evolve'
+    'body': """
+    import Evolve from 'ramda/evolve';
+
+    """
+  'ES6 import Ramda/find
+    Find :: (a -> Boolean) -> [a] -> a | undefined' :
+    'prefix': 'rai_find'
+    'body': """
+    import Find from 'ramda/find';
+
+    """
+  'ES6 import Ramda/findIndex
+    FindIndex :: (a -> Boolean) -> [a] -> Number' :
+    'prefix': 'rai_findIndex'
+    'body': """
+    import FindIndex from 'ramda/findIndex';
+
+    """
+  'ES6 import Ramda/findLast
+    FindLast :: (a -> Boolean) -> [a] -> a | undefined' :
+    'prefix': 'rai_findLast'
+    'body': """
+    import FindLast from 'ramda/findLast';
+
+    """
+  'ES6 import Ramda/findLastIndex
+    FindLastIndex :: (a -> Boolean) -> [a] -> Number' :
+    'prefix': 'rai_findLastIndex'
+    'body': """
+    import FindLastIndex from 'ramda/findLastIndex';
+
+    """
+  'ES6 import Ramda/forEach
+    ForEach :: (a -> *) -> [a] -> [a]' :
+    'prefix': 'rai_forEach'
+    'body': """
+    import ForEach from 'ramda/forEach';
+
+    """
+  'ES6 import Ramda/fromPairs
+    FromPairs :: [[k v]] -> {k: v}' :
+    'prefix': 'rai_fromPairs'
+    'body': """
+    import FromPairs from 'ramda/fromPairs';
+
+    """
+  'ES6 import Ramda/groupWith
+    GroupWith :: (a  a -> Boolean) -> [a] -> [[a]]' :
+    'prefix': 'rai_groupWith'
+    'body': """
+    import GroupWith from 'ramda/groupWith';
+
+    """
+  'ES6 import Ramda/gt
+    Gt :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rai_gt'
+    'body': """
+    import Gt from 'ramda/gt';
+
+    """
+  'ES6 import Ramda/gte
+    Gte :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rai_gte'
+    'body': """
+    import Gte from 'ramda/gte';
+
+    """
+  'ES6 import Ramda/has
+    Has :: s -> {s: x} -> Boolean' :
+    'prefix': 'rai_has'
+    'body': """
+    import Has from 'ramda/has';
+
+    """
+  'ES6 import Ramda/hasIn
+    HasIn :: s -> {s: x} -> Boolean' :
+    'prefix': 'rai_hasIn'
+    'body': """
+    import HasIn from 'ramda/hasIn';
+
+    """
+  'ES6 import Ramda/identical
+    Identical :: a -> a -> Boolean' :
+    'prefix': 'rai_identical'
+    'body': """
+    import Identical from 'ramda/identical';
+
+    """
+  'ES6 import Ramda/identity
+    Identity :: a -> a' :
+    'prefix': 'rai_identity'
+    'body': """
+    import Identity from 'ramda/identity';
+
+    """
+  'ES6 import Ramda/ifElse
+    IfElse :: (*... -> Boolean) -> (*... -> *) -> (*... -> *) -> (*... -> *)' :
+    'prefix': 'rai_ifElse'
+    'body': """
+    import IfElse from 'ramda/ifElse';
+
+    """
+  'ES6 import Ramda/inc
+    Inc :: Number -> Number' :
+    'prefix': 'rai_inc'
+    'body': """
+    import Inc from 'ramda/inc';
+
+    """
+  'ES6 import Ramda/insert
+    Insert :: Number -> a -> [a] -> [a]' :
+    'prefix': 'rai_insert'
+    'body': """
+    import Insert from 'ramda/insert';
+
+    """
+  'ES6 import Ramda/insertAll
+    InsertAll :: Number -> [a] -> [a] -> [a]' :
+    'prefix': 'rai_insertAll'
+    'body': """
+    import InsertAll from 'ramda/insertAll';
+
+    """
+  'ES6 import Ramda/intersperse
+    Intersperse :: a -> [a] -> [a]' :
+    'prefix': 'rai_intersperse'
+    'body': """
+    import Intersperse from 'ramda/intersperse';
+
+    """
+  'ES6 import Ramda/is
+    Is :: (* -> {*}) -> a -> Boolean' :
+    'prefix': 'rai_is'
+    'body': """
+    import Is from 'ramda/is';
+
+    """
+  'ES6 import Ramda/isArrayLike
+    IsArrayLike :: * -> Boolean' :
+    'prefix': 'rai_isArrayLike'
+    'body': """
+    import IsArrayLike from 'ramda/isArrayLike';
+
+    """
+  'ES6 import Ramda/isNil
+    IsNil :: * -> Boolean' :
+    'prefix': 'rai_isNil'
+    'body': """
+    import IsNil from 'ramda/isNil';
+
+    """
+  'ES6 import Ramda/keys
+    Keys :: {k: v} -> [k]' :
+    'prefix': 'rai_keys'
+    'body': """
+    import Keys from 'ramda/keys';
+
+    """
+  'ES6 import Ramda/keysIn
+    KeysIn :: {k: v} -> [k]' :
+    'prefix': 'rai_keysIn'
+    'body': """
+    import KeysIn from 'ramda/keysIn';
+
+    """
+  'ES6 import Ramda/length
+    Length :: [a] -> Number' :
+    'prefix': 'rai_length'
+    'body': """
+    import Length from 'ramda/length';
+
+    """
+  'ES6 import Ramda/lt
+    Lt :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rai_lt'
+    'body': """
+    import Lt from 'ramda/lt';
+
+    """
+  'ES6 import Ramda/lte
+    Lte :: Ord a => a -> a -> Boolean' :
+    'prefix': 'rai_lte'
+    'body': """
+    import Lte from 'ramda/lte';
+
+    """
+  'ES6 import Ramda/mapAccum
+    MapAccum :: (acc -> x -> (acc  y)) -> acc -> [x] -> (acc  [y])' :
+    'prefix': 'rai_mapAccum'
+    'body': """
+    import MapAccum from 'ramda/mapAccum';
+
+    """
+  'ES6 import Ramda/mapAccumRight
+    MapAccumRight :: (acc -> x -> (acc  y)) -> acc -> [x] -> (acc  [y])' :
+    'prefix': 'rai_mapAccumRight'
+    'body': """
+    import MapAccumRight from 'ramda/mapAccumRight';
+
+    """
+  'ES6 import Ramda/match
+    Match :: RegExp -> String -> [String | Undefined]' :
+    'prefix': 'rai_match'
+    'body': """
+    import Match from 'ramda/match';
+
+    """
+  'ES6 import Ramda/mathMod
+    MathMod :: Number -> Number -> Number' :
+    'prefix': 'rai_mathMod'
+    'body': """
+    import MathMod from 'ramda/mathMod';
+
+    """
+  'ES6 import Ramda/max
+    Max :: Ord a => a -> a -> a' :
+    'prefix': 'rai_max'
+    'body': """
+    import Max from 'ramda/max';
+
+    """
+  'ES6 import Ramda/maxBy
+    MaxBy :: Ord b => (a -> b) -> a -> a -> a' :
+    'prefix': 'rai_maxBy'
+    'body': """
+    import MaxBy from 'ramda/maxBy';
+
+    """
+  'ES6 import Ramda/merge
+    Merge :: {k: v} -> {k: v} -> {k: v}' :
+    'prefix': 'rai_merge'
+    'body': """
+    import Merge from 'ramda/merge';
+
+    """
+  'ES6 import Ramda/mergeAll
+    MergeAll :: [{k: v}] -> {k: v}' :
+    'prefix': 'rai_mergeAll'
+    'body': """
+    import MergeAll from 'ramda/mergeAll';
+
+    """
+  'ES6 import Ramda/mergeWithKey
+    MergeWithKey :: (String -> a -> a -> a) -> {a} -> {a} -> {a}' :
+    'prefix': 'rai_mergeWithKey'
+    'body': """
+    import MergeWithKey from 'ramda/mergeWithKey';
+
+    """
+  'ES6 import Ramda/min
+    Min :: Ord a => a -> a -> a' :
+    'prefix': 'rai_min'
+    'body': """
+    import Min from 'ramda/min';
+
+    """
+  'ES6 import Ramda/minBy
+    MinBy :: Ord b => (a -> b) -> a -> a -> a' :
+    'prefix': 'rai_minBy'
+    'body': """
+    import MinBy from 'ramda/minBy';
+
+    """
+  'ES6 import Ramda/modulo
+    Modulo :: Number -> Number -> Number' :
+    'prefix': 'rai_modulo'
+    'body': """
+    import Modulo from 'ramda/modulo';
+
+    """
+  'ES6 import Ramda/multiply
+    Multiply :: Number -> Number -> Number' :
+    'prefix': 'rai_multiply'
+    'body': """
+    import Multiply from 'ramda/multiply';
+
+    """
+  'ES6 import Ramda/nAry
+    NAry :: Number -> (* -> a) -> (* -> a)' :
+    'prefix': 'rai_nAry'
+    'body': """
+    import NAry from 'ramda/nAry';
+
+    """
+  'ES6 import Ramda/negate
+    Negate :: Number -> Number' :
+    'prefix': 'rai_negate'
+    'body': """
+    import Negate from 'ramda/negate';
+
+    """
+  'ES6 import Ramda/none
+    None :: (a -> Boolean) -> [a] -> Boolean' :
+    'prefix': 'rai_none'
+    'body': """
+    import None from 'ramda/none';
+
+    """
+  'ES6 import Ramda/not
+    Not :: * -> Boolean' :
+    'prefix': 'rai_not'
+    'body': """
+    import Not from 'ramda/not';
+
+    """
+  'ES6 import Ramda/nth
+    Nth :: Number -> [a] -> a | Undefined' :
+    'prefix': 'rai_nth'
+    'body': """
+    import Nth from 'ramda/nth';
+
+    """
+  'ES6 import Ramda/nthArg
+    NthArg :: Number -> *... -> *' :
+    'prefix': 'rai_nthArg'
+    'body': """
+    import NthArg from 'ramda/nthArg';
+
+    """
+  'ES6 import Ramda/objOf
+    ObjOf :: String -> a -> {String:a}' :
+    'prefix': 'rai_objOf'
+    'body': """
+    import ObjOf from 'ramda/objOf';
+
+    """
+  'ES6 import Ramda/of
+    Of :: a -> [a]' :
+    'prefix': 'rai_of'
+    'body': """
+    import Of from 'ramda/of';
+
+    """
+  'ES6 import Ramda/once
+    Once :: (a... -> b) -> (a... -> b)' :
+    'prefix': 'rai_once'
+    'body': """
+    import Once from 'ramda/once';
+
+    """
+  'ES6 import Ramda/or
+    Or :: * -> * -> *' :
+    'prefix': 'rai_or'
+    'body': """
+    import Or from 'ramda/or';
+
+    """
+  'ES6 import Ramda/over
+    Over :: Lens s a -> (a -> a) -> s -> s' :
+    'prefix': 'rai_over'
+    'body': """
+    import Over from 'ramda/over';
+
+    """
+  'ES6 import Ramda/pair
+    Pair :: a -> b -> (a b)' :
+    'prefix': 'rai_pair'
+    'body': """
+    import Pair from 'ramda/pair';
+
+    """
+  'ES6 import Ramda/path
+    Path :: [String] -> {k: v} -> v | Undefined' :
+    'prefix': 'rai_path'
+    'body': """
+    import Path from 'ramda/path';
+
+    """
+  'ES6 import Ramda/pathOr
+    PathOr :: a -> [String] -> Object -> a' :
+    'prefix': 'rai_pathOr'
+    'body': """
+    import PathOr from 'ramda/pathOr';
+
+    """
+  'ES6 import Ramda/pathSatisfies
+    PathSatisfies :: (a -> Boolean) -> [String] -> Object -> Boolean' :
+    'prefix': 'rai_pathSatisfies'
+    'body': """
+    import PathSatisfies from 'ramda/pathSatisfies';
+
+    """
+  'ES6 import Ramda/pick
+    Pick :: [k] -> {k: v} -> {k: v}' :
+    'prefix': 'rai_pick'
+    'body': """
+    import Pick from 'ramda/pick';
+
+    """
+  'ES6 import Ramda/pickAll
+    PickAll :: [k] -> {k: v} -> {k: v}' :
+    'prefix': 'rai_pickAll'
+    'body': """
+    import PickAll from 'ramda/pickAll';
+
+    """
+  'ES6 import Ramda/pickBy
+    PickBy :: (v  k -> Boolean) -> {k: v} -> {k: v}' :
+    'prefix': 'rai_pickBy'
+    'body': """
+    import PickBy from 'ramda/pickBy';
+
+    """
+  'ES6 import Ramda/prepend
+    Prepend :: a -> [a] -> [a]' :
+    'prefix': 'rai_prepend'
+    'body': """
+    import Prepend from 'ramda/prepend';
+
+    """
+  'ES6 import Ramda/prop
+    Prop :: s -> {s: a} -> a | Undefined' :
+    'prefix': 'rai_prop'
+    'body': """
+    import Prop from 'ramda/prop';
+
+    """
+  'ES6 import Ramda/propOr
+    PropOr :: a -> String -> Object -> a' :
+    'prefix': 'rai_propOr'
+    'body': """
+    import PropOr from 'ramda/propOr';
+
+    """
+  'ES6 import Ramda/propSatisfies
+    PropSatisfies :: (a -> Boolean) -> String -> {String: a} -> Boolean' :
+    'prefix': 'rai_propSatisfies'
+    'body': """
+    import PropSatisfies from 'ramda/propSatisfies';
+
+    """
+  'ES6 import Ramda/props
+    Props :: [k] -> {k: v} -> [v]' :
+    'prefix': 'rai_props'
+    'body': """
+    import Props from 'ramda/props';
+
+    """
+  'ES6 import Ramda/range
+    Range :: Number -> Number -> [Number]' :
+    'prefix': 'rai_range'
+    'body': """
+    import Range from 'ramda/range';
+
+    """
+  'ES6 import Ramda/reduceRight
+    ReduceRight :: (a b -> a) -> a -> [b] -> a' :
+    'prefix': 'rai_reduceRight'
+    'body': """
+    import ReduceRight from 'ramda/reduceRight';
+
+    """
+  'ES6 import Ramda/reduced
+    Reduced :: a -> *' :
+    'prefix': 'rai_reduced'
+    'body': """
+    import Reduced from 'ramda/reduced';
+
+    """
+  'ES6 import Ramda/remove
+    Remove :: Number -> Number -> [a] -> [a]' :
+    'prefix': 'rai_remove'
+    'body': """
+    import Remove from 'ramda/remove';
+
+    """
+  'ES6 import Ramda/replace
+    Replace :: RegExp|String -> String -> String -> String' :
+    'prefix': 'rai_replace'
+    'body': """
+    import Replace from 'ramda/replace';
+
+    """
+  'ES6 import Ramda/reverse
+    Reverse :: [a] -> [a]' :
+    'prefix': 'rai_reverse'
+    'body': """
+    import Reverse from 'ramda/reverse';
+
+    """
+  'ES6 import Ramda/scan
+    Scan :: (a b -> a) -> a -> [b] -> [a]' :
+    'prefix': 'rai_scan'
+    'body': """
+    import Scan from 'ramda/scan';
+
+    """
+  'ES6 import Ramda/set
+    Set :: Lens s a -> a -> s -> s' :
+    'prefix': 'rai_set'
+    'body': """
+    import Set from 'ramda/set';
+
+    """
+  'ES6 import Ramda/slice
+    Slice :: Number -> Number -> [a] -> [a]' :
+    'prefix': 'rai_slice'
+    'body': """
+    import Slice from 'ramda/slice';
+
+    """
+  'ES6 import Ramda/sort
+    Sort :: (a a -> Number) -> [a] -> [a]' :
+    'prefix': 'rai_sort'
+    'body': """
+    import Sort from 'ramda/sort';
+
+    """
+  'ES6 import Ramda/sortBy
+    SortBy :: Ord b => (a -> b) -> [a] -> [a]' :
+    'prefix': 'rai_sortBy'
+    'body': """
+    import SortBy from 'ramda/sortBy';
+
+    """
+  'ES6 import Ramda/splitAt
+    SplitAt :: Number -> [a] -> [[a]  [a]]' :
+    'prefix': 'rai_splitAt'
+    'body': """
+    import SplitAt from 'ramda/splitAt';
+
+    """
+  'ES6 import Ramda/splitEvery
+    SplitEvery :: Number -> [a] -> [[a]]' :
+    'prefix': 'rai_splitEvery'
+    'body': """
+    import SplitEvery from 'ramda/splitEvery';
+
+    """
+  'ES6 import Ramda/splitWhen
+    SplitWhen :: (a -> Boolean) -> [a] -> [[a]  [a]]' :
+    'prefix': 'rai_splitWhen'
+    'body': """
+    import SplitWhen from 'ramda/splitWhen';
+
+    """
+  'ES6 import Ramda/subtract
+    Subtract :: Number -> Number -> Number' :
+    'prefix': 'rai_subtract'
+    'body': """
+    import Subtract from 'ramda/subtract';
+
+    """
+  'ES6 import Ramda/tail
+    Tail :: [a] -> [a]' :
+    'prefix': 'rai_tail'
+    'body': """
+    import Tail from 'ramda/tail';
+
+    """
+  'ES6 import Ramda/take
+    Take :: Number -> [a] -> [a]' :
+    'prefix': 'rai_take'
+    'body': """
+    import Take from 'ramda/take';
+
+    """
+  'ES6 import Ramda/takeLastWhile
+    TakeLastWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rai_takeLastWhile'
+    'body': """
+    import TakeLastWhile from 'ramda/takeLastWhile';
+
+    """
+  'ES6 import Ramda/takeWhile
+    TakeWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rai_takeWhile'
+    'body': """
+    import TakeWhile from 'ramda/takeWhile';
+
+    """
+  'ES6 import Ramda/tap
+    Tap :: (a -> *) -> a -> a' :
+    'prefix': 'rai_tap'
+    'body': """
+    import Tap from 'ramda/tap';
+
+    """
+  'ES6 import Ramda/times
+    Times :: (Number -> a) -> Number -> [a]' :
+    'prefix': 'rai_times'
+    'body': """
+    import Times from 'ramda/times';
+
+    """
+  'ES6 import Ramda/toPairs
+    ToPairs :: {String: *} -> [[String *]]' :
+    'prefix': 'rai_toPairs'
+    'body': """
+    import ToPairs from 'ramda/toPairs';
+
+    """
+  'ES6 import Ramda/toPairsIn
+    ToPairsIn :: {String: *} -> [[String *]]' :
+    'prefix': 'rai_toPairsIn'
+    'body': """
+    import ToPairsIn from 'ramda/toPairsIn';
+
+    """
+  'ES6 import Ramda/transpose
+    Transpose :: [[a]] -> [[a]]' :
+    'prefix': 'rai_transpose'
+    'body': """
+    import Transpose from 'ramda/transpose';
+
+    """
+  'ES6 import Ramda/trim
+    Trim :: String -> String' :
+    'prefix': 'rai_trim'
+    'body': """
+    import Trim from 'ramda/trim';
+
+    """
+  'ES6 import Ramda/tryCatch
+    TryCatch :: (...x -> a) -> ((e  ...x) -> a) -> (...x -> a)' :
+    'prefix': 'rai_tryCatch'
+    'body': """
+    import TryCatch from 'ramda/tryCatch';
+
+    """
+  'ES6 import Ramda/type
+    Type :: (* -> {*}) -> String' :
+    'prefix': 'rai_type'
+    'body': """
+    import Type from 'ramda/type';
+
+    """
+  'ES6 import Ramda/unapply
+    Unapply :: ([*...] -> a) -> (*... -> a)' :
+    'prefix': 'rai_unapply'
+    'body': """
+    import Unapply from 'ramda/unapply';
+
+    """
+  'ES6 import Ramda/unary
+    Unary :: (* -> b) -> (a -> b)' :
+    'prefix': 'rai_unary'
+    'body': """
+    import Unary from 'ramda/unary';
+
+    """
+  'ES6 import Ramda/uncurryN
+    UncurryN :: Number -> (a -> b) -> (a -> c)' :
+    'prefix': 'rai_uncurryN'
+    'body': """
+    import UncurryN from 'ramda/uncurryN';
+
+    """
+  'ES6 import Ramda/unfold
+    Unfold :: (a -> [b]) -> * -> [b]' :
+    'prefix': 'rai_unfold'
+    'body': """
+    import Unfold from 'ramda/unfold';
+
+    """
+  'ES6 import Ramda/uniqWith
+    UniqWith :: (a  a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rai_uniqWith'
+    'body': """
+    import UniqWith from 'ramda/uniqWith';
+
+    """
+  'ES6 import Ramda/unless
+    Unless :: (a -> Boolean) -> (a -> a) -> a -> a' :
+    'prefix': 'rai_unless'
+    'body': """
+    import Unless from 'ramda/unless';
+
+    """
+  'ES6 import Ramda/until
+    Until :: (a -> Boolean) -> (a -> a) -> a -> a' :
+    'prefix': 'rai_until'
+    'body': """
+    import Until from 'ramda/until';
+
+    """
+  'ES6 import Ramda/update
+    Update :: Number -> a -> [a] -> [a]' :
+    'prefix': 'rai_update'
+    'body': """
+    import Update from 'ramda/update';
+
+    """
+  'ES6 import Ramda/useWith
+    UseWith :: (x1 -> x2 -> ... -> z) -> [(a -> x1)  (b -> x2)  ...] -> (a -> b -> ... -> z)' :
+    'prefix': 'rai_useWith'
+    'body': """
+    import UseWith from 'ramda/useWith';
+
+    """
+  'ES6 import Ramda/values
+    Values :: {k: v} -> [v]' :
+    'prefix': 'rai_values'
+    'body': """
+    import Values from 'ramda/values';
+
+    """
+  'ES6 import Ramda/valuesIn
+    ValuesIn :: {k: v} -> [v]' :
+    'prefix': 'rai_valuesIn'
+    'body': """
+    import ValuesIn from 'ramda/valuesIn';
+
+    """
+  'ES6 import Ramda/view
+    View :: Lens s a -> s -> a' :
+    'prefix': 'rai_view'
+    'body': """
+    import View from 'ramda/view';
+
+    """
+  'ES6 import Ramda/when
+    When :: (a -> Boolean) -> (a -> a) -> a -> a' :
+    'prefix': 'rai_when'
+    'body': """
+    import When from 'ramda/when';
+
+    """
+  'ES6 import Ramda/where
+    Where :: {String: (* -> Boolean)} -> {String: *} -> Boolean' :
+    'prefix': 'rai_where'
+    'body': """
+    import Where from 'ramda/where';
+
+    """
+  'ES6 import Ramda/wrap
+    Wrap :: (a... -> b) -> ((a... -> b) -> a... -> c) -> (a... -> c)' :
+    'prefix': 'rai_wrap'
+    'body': """
+    import Wrap from 'ramda/wrap';
+
+    """
+  'ES6 import Ramda/xprod
+    Xprod :: [a] -> [b] -> [[a b]]' :
+    'prefix': 'rai_xprod'
+    'body': """
+    import Xprod from 'ramda/xprod';
+
+    """
+  'ES6 import Ramda/zip
+    Zip :: [a] -> [b] -> [[a b]]' :
+    'prefix': 'rai_zip'
+    'body': """
+    import Zip from 'ramda/zip';
+
+    """
+  'ES6 import Ramda/zipObj
+    ZipObj :: [String] -> [*] -> {String: *}' :
+    'prefix': 'rai_zipObj'
+    'body': """
+    import ZipObj from 'ramda/zipObj';
+
+    """
+  'ES6 import Ramda/zipWith
+    ZipWith :: (a b -> c) -> [a] -> [b] -> [c]' :
+    'prefix': 'rai_zipWith'
+    'body': """
+    import ZipWith from 'ramda/zipWith';
+
+    """
+  'ES6 import Ramda/F
+    F :: * -> Boolean' :
+    'prefix': 'rai_F'
+    'body': """
+    import F from 'ramda/F';
+
+    """
+  'ES6 import Ramda/T
+    T :: * -> Boolean' :
+    'prefix': 'rai_T'
+    'body': """
+    import T from 'ramda/T';
+
+    """
+  'ES6 import Ramda/addIndex
+    AddIndex :: ((a ... -> b) ... -> [a] -> *) -> (a ...  Int  [a] -> b) ... -> [a] -> *)' :
+    'prefix': 'rai_addIndex'
+    'body': """
+    import AddIndex from 'ramda/addIndex';
+
+    """
+  'ES6 import Ramda/binary
+    Binary :: (* -> c) -> (a  b -> c)' :
+    'prefix': 'rai_binary'
+    'body': """
+    import Binary from 'ramda/binary';
+
+    """
+  'ES6 import Ramda/clone
+    Clone :: {*} -> {*}' :
+    'prefix': 'rai_clone'
+    'body': """
+    import Clone from 'ramda/clone';
+
+    """
+  'ES6 import Ramda/curry
+    Curry :: (* -> a) -> (* -> a)' :
+    'prefix': 'rai_curry'
+    'body': """
+    import Curry from 'ramda/curry';
+
+    """
+  'ES6 import Ramda/drop
+    Drop :: Number -> [a] -> [a]' :
+    'prefix': 'rai_drop'
+    'body': """
+    import Drop from 'ramda/drop';
+
+    """
+  'ES6 import Ramda/dropLast
+    DropLast :: Number -> [a] -> [a]' :
+    'prefix': 'rai_dropLast'
+    'body': """
+    import DropLast from 'ramda/dropLast';
+
+    """
+  'ES6 import Ramda/dropLastWhile
+    DropLastWhile :: (a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rai_dropLastWhile'
+    'body': """
+    import DropLastWhile from 'ramda/dropLastWhile';
+
+    """
+  'ES6 import Ramda/equals
+    Equals :: a -> b -> Boolean' :
+    'prefix': 'rai_equals'
+    'body': """
+    import Equals from 'ramda/equals';
+
+    """
+  'ES6 import Ramda/filter
+    Filter :: Filterable f => (a -> Boolean) -> f a -> f a' :
+    'prefix': 'rai_filter'
+    'body': """
+    import Filter from 'ramda/filter';
+
+    """
+  'ES6 import Ramda/flatten
+    Flatten :: [a] -> [b]' :
+    'prefix': 'rai_flatten'
+    'body': """
+    import Flatten from 'ramda/flatten';
+
+    """
+  'ES6 import Ramda/flip
+    Flip :: (a -> b -> c -> ... -> z) -> (b -> a -> c -> ... -> z)' :
+    'prefix': 'rai_flip'
+    'body': """
+    import Flip from 'ramda/flip';
+
+    """
+  'ES6 import Ramda/head
+    Head :: [a] -> a | Undefined' :
+    'prefix': 'rai_head'
+    'body': """
+    import Head from 'ramda/head';
+
+    """
+  'ES6 import Ramda/init
+    Init :: [a] -> [a]' :
+    'prefix': 'rai_init'
+    'body': """
+    import Init from 'ramda/init';
+
+    """
+  'ES6 import Ramda/intersectionWith
+    IntersectionWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]' :
+    'prefix': 'rai_intersectionWith'
+    'body': """
+    import IntersectionWith from 'ramda/intersectionWith';
+
+    """
+  'ES6 import Ramda/into
+    Into :: a -> (b -> b) -> [c] -> a' :
+    'prefix': 'rai_into'
+    'body': """
+    import Into from 'ramda/into';
+
+    """
+  'ES6 import Ramda/invert
+    Invert :: {s: x} -> {x: [ s  ... ]}' :
+    'prefix': 'rai_invert'
+    'body': """
+    import Invert from 'ramda/invert';
+
+    """
+  'ES6 import Ramda/invertObj
+    InvertObj :: {s: x} -> {x: s}' :
+    'prefix': 'rai_invertObj'
+    'body': """
+    import InvertObj from 'ramda/invertObj';
+
+    """
+  'ES6 import Ramda/isEmpty
+    IsEmpty :: a -> Boolean' :
+    'prefix': 'rai_isEmpty'
+    'body': """
+    import IsEmpty from 'ramda/isEmpty';
+
+    """
+  'ES6 import Ramda/last
+    Last :: [a] -> a | Undefined' :
+    'prefix': 'rai_last'
+    'body': """
+    import Last from 'ramda/last';
+
+    """
+  'ES6 import Ramda/lastIndexOf
+    LastIndexOf :: a -> [a] -> Number' :
+    'prefix': 'rai_lastIndexOf'
+    'body': """
+    import LastIndexOf from 'ramda/lastIndexOf';
+
+    """
+  'ES6 import Ramda/map
+    Map :: Functor f => (a -> b) -> f a -> f b' :
+    'prefix': 'rai_map'
+    'body': """
+    import Map from 'ramda/map';
+
+    """
+  'ES6 import Ramda/mapObjIndexed
+    MapObjIndexed :: ((*  String  Object) -> *) -> Object -> Object' :
+    'prefix': 'rai_mapObjIndexed'
+    'body': """
+    import MapObjIndexed from 'ramda/mapObjIndexed';
+
+    """
+  'ES6 import Ramda/mergeWith
+    MergeWith :: (a -> a -> a) -> {a} -> {a} -> {a}' :
+    'prefix': 'rai_mergeWith'
+    'body': """
+    import MergeWith from 'ramda/mergeWith';
+
+    """
+  'ES6 import Ramda/partial
+    Partial :: ((a  b  c  ...  n) -> x) -> [a  b  c  ...] -> ((d  e  f  ...  n) -> x)' :
+    'prefix': 'rai_partial'
+    'body': """
+    import Partial from 'ramda/partial';
+
+    """
+  'ES6 import Ramda/partialRight
+    PartialRight :: ((a  b  c  ...  n) -> x) -> [d  e  f  ...  n] -> ((a  b  c  ...) -> x)' :
+    'prefix': 'rai_partialRight'
+    'body': """
+    import PartialRight from 'ramda/partialRight';
+
+    """
+  'ES6 import Ramda/pathEq
+    PathEq :: [String] -> * -> {String: *} -> Boolean' :
+    'prefix': 'rai_pathEq'
+    'body': """
+    import PathEq from 'ramda/pathEq';
+
+    """
+  'ES6 import Ramda/pluck
+    Pluck :: k -> [{k: v}] -> [v]' :
+    'prefix': 'rai_pluck'
+    'body': """
+    import Pluck from 'ramda/pluck';
+
+    """
+  'ES6 import Ramda/project
+    Project :: [k] -> [{k: v}] -> [{k: v}]' :
+    'prefix': 'rai_project'
+    'body': """
+    import Project from 'ramda/project';
+
+    """
+  'ES6 import Ramda/propEq
+    PropEq :: String -> a -> Object -> Boolean' :
+    'prefix': 'rai_propEq'
+    'body': """
+    import PropEq from 'ramda/propEq';
+
+    """
+  'ES6 import Ramda/propIs
+    PropIs :: Type -> String -> Object -> Boolean' :
+    'prefix': 'rai_propIs'
+    'body': """
+    import PropIs from 'ramda/propIs';
+
+    """
+  'ES6 import Ramda/reduce
+    Reduce :: ((a  b) -> a) -> a -> [b] -> a' :
+    'prefix': 'rai_reduce'
+    'body': """
+    import Reduce from 'ramda/reduce';
+
+    """
+  'ES6 import Ramda/reduceBy
+    ReduceBy :: ((a  b) -> a) -> a -> (b -> String) -> [b] -> {String: a}' :
+    'prefix': 'rai_reduceBy'
+    'body': """
+    import ReduceBy from 'ramda/reduceBy';
+
+    """
+  'ES6 import Ramda/reject
+    Reject :: Filterable f => (a -> Boolean) -> f a -> f a' :
+    'prefix': 'rai_reject'
+    'body': """
+    import Reject from 'ramda/reject';
+
+    """
+  'ES6 import Ramda/repeat
+    Repeat :: a -> n -> [a]' :
+    'prefix': 'rai_repeat'
+    'body': """
+    import Repeat from 'ramda/repeat';
+
+    """
+  'ES6 import Ramda/sum
+    Sum :: [Number] -> Number' :
+    'prefix': 'rai_sum'
+    'body': """
+    import Sum from 'ramda/sum';
+
+    """
+  'ES6 import Ramda/takeLast
+    TakeLast :: Number -> [a] -> [a]' :
+    'prefix': 'rai_takeLast'
+    'body': """
+    import TakeLast from 'ramda/takeLast';
+
+    """
+  'ES6 import Ramda/transduce
+    Transduce :: (c -> c) -> (a b -> a) -> a -> [b] -> a' :
+    'prefix': 'rai_transduce'
+    'body': """
+    import Transduce from 'ramda/transduce';
+
+    """
+  'ES6 import Ramda/unionWith
+    UnionWith :: (a -> a -> Boolean) -> [*] -> [*] -> [*]' :
+    'prefix': 'rai_unionWith'
+    'body': """
+    import UnionWith from 'ramda/unionWith';
+
+    """
+  'ES6 import Ramda/whereEq
+    WhereEq :: {String: *} -> {String: *} -> Boolean' :
+    'prefix': 'rai_whereEq'
+    'body': """
+    import WhereEq from 'ramda/whereEq';
+
+    """
+  'ES6 import Ramda/allPass
+    AllPass :: [(*... -> Boolean)] -> (*... -> Boolean)' :
+    'prefix': 'rai_allPass'
+    'body': """
+    import AllPass from 'ramda/allPass';
+
+    """
+  'ES6 import Ramda/allUniq
+    AllUniq :: [a] -> Boolean' :
+    'prefix': 'rai_allUniq'
+    'body': """
+    import AllUniq from 'ramda/allUniq';
+
+    """
+  'ES6 import Ramda/anyPass
+    AnyPass :: [(*... -> Boolean)] -> (*... -> Boolean)' :
+    'prefix': 'rai_anyPass'
+    'body': """
+    import AnyPass from 'ramda/anyPass';
+
+    """
+  'ES6 import Ramda/ap
+    Ap :: [f] -> [a] -> [f a]' :
+    'prefix': 'rai_ap'
+    'body': """
+    import Ap from 'ramda/ap';
+
+    """
+  'ES6 import Ramda/applySpec
+    ApplySpec :: {k: ((a  b  ...  m) -> v)} -> ((a  b  ...  m) -> {k: v})' :
+    'prefix': 'rai_applySpec'
+    'body': """
+    import ApplySpec from 'ramda/applySpec';
+
+    """
+  'ES6 import Ramda/call
+    Call :: (*... -> a) *... -> a' :
+    'prefix': 'rai_call'
+    'body': """
+    import Call from 'ramda/call';
+
+    """
+  'ES6 import Ramda/chain
+    Chain :: (a -> [b]) -> [a] -> [b]' :
+    'prefix': 'rai_chain'
+    'body': """
+    import Chain from 'ramda/chain';
+
+    """
+  'ES6 import Ramda/cond
+    Cond :: [[(*... -> Boolean) (*... -> *)]] -> (*... -> *)' :
+    'prefix': 'rai_cond'
+    'body': """
+    import Cond from 'ramda/cond';
+
+    """
+  'ES6 import Ramda/constructN
+    ConstructN :: Number -> (* -> {*}) -> (* -> {*})' :
+    'prefix': 'rai_constructN'
+    'body': """
+    import ConstructN from 'ramda/constructN';
+
+    """
+  'ES6 import Ramda/converge
+    Converge :: (x1 -> x2 -> ... -> z) -> [(a -> b -> ... -> x1)  (a -> b -> ... -> x2)  ...] -> (a -> b -> ... -> z)' :
+    'prefix': 'rai_converge'
+    'body': """
+    import Converge from 'ramda/converge';
+
+    """
+  'ES6 import Ramda/countBy
+    CountBy :: (a -> String) -> [a] -> {*}' :
+    'prefix': 'rai_countBy'
+    'body': """
+    import CountBy from 'ramda/countBy';
+
+    """
+  'ES6 import Ramda/dropRepeatsWith
+    DropRepeatsWith :: (a  a -> Boolean) -> [a] -> [a]' :
+    'prefix': 'rai_dropRepeatsWith'
+    'body': """
+    import DropRepeatsWith from 'ramda/dropRepeatsWith';
+
+    """
+  'ES6 import Ramda/eqBy
+    EqBy :: (a -> b) -> a -> a -> Boolean' :
+    'prefix': 'rai_eqBy'
+    'body': """
+    import EqBy from 'ramda/eqBy';
+
+    """
+  'ES6 import Ramda/eqProps
+    EqProps :: k -> {k: v} -> {k: v} -> Boolean' :
+    'prefix': 'rai_eqProps'
+    'body': """
+    import EqProps from 'ramda/eqProps';
+
+    """
+  'ES6 import Ramda/groupBy
+    GroupBy :: (a -> String) -> [a] -> {String: [a]}' :
+    'prefix': 'rai_groupBy'
+    'body': """
+    import GroupBy from 'ramda/groupBy';
+
+    """
+  'ES6 import Ramda/indexBy
+    IndexBy :: (a -> String) -> [{k: v}] -> {k: {k: v}}' :
+    'prefix': 'rai_indexBy'
+    'body': """
+    import IndexBy from 'ramda/indexBy';
+
+    """
+  'ES6 import Ramda/indexOf
+    IndexOf :: a -> [a] -> Number' :
+    'prefix': 'rai_indexOf'
+    'body': """
+    import IndexOf from 'ramda/indexOf';
+
+    """
+  'ES6 import Ramda/juxt
+    Juxt :: [(a  b  ...  m) -> n] -> ((a  b  ...  m) -> [n])' :
+    'prefix': 'rai_juxt'
+    'body': """
+    import Juxt from 'ramda/juxt';
+
+    """
+  'ES6 import Ramda/lens
+    Lens :: (s -> a) -> ((a  s) -> s) -> Lens s a' :
+    'prefix': 'rai_lens'
+    'body': """
+    import Lens from 'ramda/lens';
+
+    """
+  'ES6 import Ramda/lensIndex
+    LensIndex :: Number -> Lens s a' :
+    'prefix': 'rai_lensIndex'
+    'body': """
+    import LensIndex from 'ramda/lensIndex';
+
+    """
+  'ES6 import Ramda/lensPath
+    LensPath :: [String] -> Lens s a' :
+    'prefix': 'rai_lensPath'
+    'body': """
+    import LensPath from 'ramda/lensPath';
+
+    """
+  'ES6 import Ramda/lensProp
+    LensProp :: String -> Lens s a' :
+    'prefix': 'rai_lensProp'
+    'body': """
+    import LensProp from 'ramda/lensProp';
+
+    """
+  'ES6 import Ramda/liftN
+    LiftN :: Number -> (*... -> *) -> ([*]... -> [*])' :
+    'prefix': 'rai_liftN'
+    'body': """
+    import LiftN from 'ramda/liftN';
+
+    """
+  'ES6 import Ramda/mean
+    Mean :: [Number] -> Number' :
+    'prefix': 'rai_mean'
+    'body': """
+    import Mean from 'ramda/mean';
+
+    """
+  'ES6 import Ramda/median
+    Median :: [Number] -> Number' :
+    'prefix': 'rai_median'
+    'body': """
+    import Median from 'ramda/median';
+
+    """
+  'ES6 import Ramda/partition
+    Partition :: Filterable f => (a -> Boolean) -> f a -> [f a  f a]' :
+    'prefix': 'rai_partition'
+    'body': """
+    import Partition from 'ramda/partition';
+
+    """
+  'ES6 import Ramda/pipe
+    Pipe :: (((a  b  ...  n) -> o)  (o -> p)  ...  (x -> y)  (y -> z)) -> ((a  b  ...  n) -> z)' :
+    'prefix': 'rai_pipe'
+    'body': """
+    import Pipe from 'ramda/pipe';
+
+    """
+  'ES6 import Ramda/pipeP
+    PipeP :: ((a -> Promise b)  (b -> Promise c)  ...  (y -> Promise z)) -> (a -> Promise z)' :
+    'prefix': 'rai_pipeP'
+    'body': """
+    import PipeP from 'ramda/pipeP';
+
+    """
+  'ES6 import Ramda/product
+    Product :: [Number] -> Number' :
+    'prefix': 'rai_product'
+    'body': """
+    import Product from 'ramda/product';
+
+    """
+  'ES6 import Ramda/sequence
+    Sequence :: (Applicative f  Traversable t) => (a -> f a) -> t (f a) -> f (t a)' :
+    'prefix': 'rai_sequence'
+    'body': """
+    import Sequence from 'ramda/sequence';
+
+    """
+  'ES6 import Ramda/traverse
+    Traverse :: (Applicative f  Traversable t) => (a -> f a) -> (a -> f b) -> t a -> f (t b)' :
+    'prefix': 'rai_traverse'
+    'body': """
+    import Traverse from 'ramda/traverse';
+
+    """
+  'ES6 import Ramda/unnest
+    Unnest :: Chain c => c (c a) -> c a' :
+    'prefix': 'rai_unnest'
+    'body': """
+    import Unnest from 'ramda/unnest';
+
+    """
+  'ES6 import Ramda/compose
+    Compose :: ((y -> z)  (x -> y)  ...  (o -> p)  ((a  b  ...  n) -> o)) -> ((a  b  ...  n) -> z)' :
+    'prefix': 'rai_compose'
+    'body': """
+    import Compose from 'ramda/compose';
+
+    """
+  'ES6 import Ramda/composeK
+    ComposeK :: Chain m => ((y -> m z)  (x -> m y)  ...  (a -> m b)) -> (m a -> m z)' :
+    'prefix': 'rai_composeK'
+    'body': """
+    import ComposeK from 'ramda/composeK';
+
+    """
+  'ES6 import Ramda/composeP
+    ComposeP :: ((y -> Promise z)  (x -> Promise y)  ...  (a -> Promise b)) -> (a -> Promise z)' :
+    'prefix': 'rai_composeP'
+    'body': """
+    import ComposeP from 'ramda/composeP';
+
+    """
+  'ES6 import Ramda/construct
+    Construct :: (* -> {*}) -> (* -> {*})' :
+    'prefix': 'rai_construct'
+    'body': """
+    import Construct from 'ramda/construct';
+
+    """
+  'ES6 import Ramda/contains
+    Contains :: a -> [a] -> Boolean' :
+    'prefix': 'rai_contains'
+    'body': """
+    import Contains from 'ramda/contains';
+
+    """
+  'ES6 import Ramda/difference
+    Difference :: [*] -> [*] -> [*]' :
+    'prefix': 'rai_difference'
+    'body': """
+    import Difference from 'ramda/difference';
+
+    """
+  'ES6 import Ramda/dropRepeats
+    DropRepeats :: [a] -> [a]' :
+    'prefix': 'rai_dropRepeats'
+    'body': """
+    import DropRepeats from 'ramda/dropRepeats';
+
+    """
+  'ES6 import Ramda/lift
+    Lift :: (*... -> *) -> ([*]... -> [*])' :
+    'prefix': 'rai_lift'
+    'body': """
+    import Lift from 'ramda/lift';
+
+    """
+  'ES6 import Ramda/omit
+    Omit :: [String] -> {String: *} -> {String: *}' :
+    'prefix': 'rai_omit'
+    'body': """
+    import Omit from 'ramda/omit';
+
+    """
+  'ES6 import Ramda/pipeK
+    PipeK :: Chain m => ((a -> m b)  (b -> m c)  ...  (y -> m z)) -> (m a -> m z)' :
+    'prefix': 'rai_pipeK'
+    'body': """
+    import PipeK from 'ramda/pipeK';
+
+    """
+  'ES6 import Ramda/toString
+    ToString :: * -> String' :
+    'prefix': 'rai_toString'
+    'body': """
+    import ToString from 'ramda/toString';
+
+    """
+  'ES6 import Ramda/without
+    Without :: [a] -> [a] -> [a]' :
+    'prefix': 'rai_without'
+    'body': """
+    import Without from 'ramda/without';
+
+    """
+  'ES6 import Ramda/both
+    Both :: (*... -> Boolean) -> (*... -> Boolean) -> (*... -> Boolean)' :
+    'prefix': 'rai_both'
+    'body': """
+    import Both from 'ramda/both';
+
+    """
+  'ES6 import Ramda/complement
+    Complement :: (*... -> *) -> (*... -> Boolean)' :
+    'prefix': 'rai_complement'
+    'body': """
+    import Complement from 'ramda/complement';
+
+    """
+  'ES6 import Ramda/either
+    Either :: (*... -> Boolean) -> (*... -> Boolean) -> (*... -> Boolean)' :
+    'prefix': 'rai_either'
+    'body': """
+    import Either from 'ramda/either';
+
+    """
+  'ES6 import Ramda/invoker
+    Invoker :: Number -> String -> (a -> b -> ... -> n -> Object -> *)' :
+    'prefix': 'rai_invoker'
+    'body': """
+    import Invoker from 'ramda/invoker';
+
+    """
+  'ES6 import Ramda/join
+    Join :: String -> [a] -> String' :
+    'prefix': 'rai_join'
+    'body': """
+    import Join from 'ramda/join';
+
+    """
+  'ES6 import Ramda/memoize
+    Memoize :: (*... -> a) -> (*... -> a)' :
+    'prefix': 'rai_memoize'
+    'body': """
+    import Memoize from 'ramda/memoize';
+
+    """
+  'ES6 import Ramda/split
+    Split :: (String | RegExp) -> String -> [String]' :
+    'prefix': 'rai_split'
+    'body': """
+    import Split from 'ramda/split';
+
+    """
+  'ES6 import Ramda/test
+    Test :: RegExp -> String -> Boolean' :
+    'prefix': 'rai_test'
+    'body': """
+    import Test from 'ramda/test';
+
+    """
+  'ES6 import Ramda/toLower
+    ToLower :: String -> String' :
+    'prefix': 'rai_toLower'
+    'body': """
+    import ToLower from 'ramda/toLower';
+
+    """
+  'ES6 import Ramda/toUpper
+    ToUpper :: String -> String' :
+    'prefix': 'rai_toUpper'
+    'body': """
+    import ToUpper from 'ramda/toUpper';
+
+    """
+  'ES6 import Ramda/uniqBy
+    UniqBy :: (a -> b) -> [a] -> [a]' :
+    'prefix': 'rai_uniqBy'
+    'body': """
+    import UniqBy from 'ramda/uniqBy';
+
+    """
+  'ES6 import Ramda/concat
+    Concat :: [a] -> [a] -> [a]' :
+    'prefix': 'rai_concat'
+    'body': """
+    import Concat from 'ramda/concat';
+
+    """
+  'ES6 import Ramda/symmetricDifference
+    SymmetricDifference :: [*] -> [*] -> [*]' :
+    'prefix': 'rai_symmetricDifference'
+    'body': """
+    import SymmetricDifference from 'ramda/symmetricDifference';
+
+    """
+  'ES6 import Ramda/symmetricDifferenceWith
+    SymmetricDifferenceWith :: (a -> a -> Boolean) -> [a] -> [a] -> [a]' :
+    'prefix': 'rai_symmetricDifferenceWith'
+    'body': """
+    import SymmetricDifferenceWith from 'ramda/symmetricDifferenceWith';
+
+    """
+  'ES6 import Ramda/uniq
+    Uniq :: [a] -> [a]' :
+    'prefix': 'rai_uniq'
+    'body': """
+    import Uniq from 'ramda/uniq';
+
+    """
+  'ES6 import Ramda/intersection
+    Intersection :: [*] -> [*] -> [*]' :
+    'prefix': 'rai_intersection'
+    'body': """
+    import Intersection from 'ramda/intersection';
+
+    """
+  'ES6 import Ramda/union
+    Union :: [*] -> [*] -> [*]' :
+    'prefix': 'rai_union'
+    'body': """
+    import Union from 'ramda/union';
+
+    """

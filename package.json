@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thonymg/atom-ramda-modules-snippets.git"
+    "url": "https://github.com/thonymg/atom-ramda-modules-snippets.git"
   },
   "license": "MIT",
   "engines": {
@@ -21,16 +21,6 @@
     "url": "https://github.com/thonymg/atom-ramda-modules-snippets/issues"
   },
   "homepage": "https://github.com/thonymg/atom-ramda-modules-snippets#readme",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  },
   "author": {
     "name": "ThonyMg",
     "email": "copycates@gmail.com"

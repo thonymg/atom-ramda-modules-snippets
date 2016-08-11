@@ -20,13 +20,13 @@ for commented import
 
 - CommonJS: typing `rav_always_doc` will resolve to
 ```js
-//Always :: a -> (* -> a)'
+//Always :: a -> (* -> a)
 var Always = require('ramda/always');
 ```
 
 - ES2015: typing `rai_always` will resolve to
 ```js
-//Always :: a -> (* -> a)'
+//Always :: a -> (* -> a)
 import Always from 'ramda/always';`
 ```
 

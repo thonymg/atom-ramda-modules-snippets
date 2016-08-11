@@ -15,15 +15,12 @@
   },
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": "*"
   },
   "bugs": {
     "url": "https://github.com/thonymg/atom-ramda-modules-snippets/issues"
   },
   "homepage": "https://github.com/thonymg/atom-ramda-modules-snippets#readme",
-  "_shasum": "",
-  "_resolved": "",
-  "_from": "",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
@@ -37,5 +34,5 @@
   "author": {
     "name": "ThonyMg",
     "email": "copycates@gmail.com"
-},
+  }
 }
